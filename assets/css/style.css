@@ -10,11 +10,32 @@ body {
     font-family: "Kanit", sans-serif;
 }
 
-/*----------------------Nav Bar----------------------*/
+/*---------------------- Nav Bar ----------------------*/
 
+.navbar {
+    background-color: rgba(8, 58, 109, 1);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
 
 .logo {
     font-family: "Permanent Marker", sans-serif;
     font-size: 35px;
     padding-left: 15px;
+}
+
+/*---------------------- Hover ----------------------*/
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(62, 224, 217, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(62, 224, 217, 0.7);
 }
