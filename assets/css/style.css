@@ -8,6 +8,7 @@
 
 body {
     font-family: "Kanit", sans-serif;
+    padding-top: 66px;
 }
 
 /*---------------------- Nav Bar ----------------------*/
@@ -35,6 +36,17 @@ body {
 }
 
 /*---------------------- Nav Bar End ----------------------*/
+
+/*---------------------- Hero Image ----------------------*/
+
+.hero {
+    background-image: url("../images/hero/livdocks.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+/*---------------------- Hero Image End ----------------------*/
 
 /*---------------------- Hover ----------------------*/
 
