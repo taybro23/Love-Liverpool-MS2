@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+}
+
+/*----------------------Nav Bar----------------------*/
+
+
+.logo {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 35px;
+    padding-left: 15px;
+}
