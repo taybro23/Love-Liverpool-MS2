@@ -11,6 +11,10 @@ body {
     padding-top: 66px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
