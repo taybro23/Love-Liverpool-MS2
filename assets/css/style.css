@@ -15,6 +15,10 @@ body {
     text-decoration: underline;
 }
 
+.perm-font {
+    font-family: "Permanent Marker", sans-serif;
+}
+
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -30,7 +34,6 @@ body {
 }
 
 .logo {
-    font-family: "Permanent Marker", sans-serif;
     font-size: 35px;
     padding-left: 15px;
 }
