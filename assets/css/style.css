@@ -8,7 +8,7 @@
 
 body {
     font-family: "Kanit", sans-serif;
-    padding-top: 66px;
+    padding-top: 77px;
 }
 
 .underline {
@@ -76,7 +76,7 @@ i {
     background-image: url("../images/hero/livdocks.jpg");
     background-position: center;
     background-size: cover;
-    height: 95vh;
+    height: 90vh;
 }
 
 /*---------------------- Hero Image End ----------------------*/
