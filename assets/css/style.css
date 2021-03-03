@@ -96,6 +96,14 @@ i {
     max-width: 60%;
 }
 
+.form-control {
+    line-height: 2.5;
+}
+
+.submitbtn {
+    background-color: #000;
+}
+
 /*---------------------- Contact Form End ----------------------*/
 
 /*---------------------- Hover ----------------------*/
@@ -106,6 +114,12 @@ i {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(62, 224, 217, 0.7);
+}
+
+.submitbtn:hover {
+    background-color: rgba(62, 224, 217, 0.7);
+    border-color: #000;
+    color: #000;
 }
 
 i:hover {
