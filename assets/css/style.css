@@ -101,7 +101,7 @@ i {
 
 .contact-form {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .form-control {
@@ -138,6 +138,11 @@ i:hover {
 
 /*---------------------- Media Queries ----------------------*/
 
-
+@media(min-width: 992px) {
+    .contact-form {
+        margin: 0 auto;
+        max-width: 60%;
+    }
+}
 
 /*---------------------- Media Queries End ----------------------*/
