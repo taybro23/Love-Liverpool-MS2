@@ -100,11 +100,11 @@ i {
 
 /*---------------------- Hover ----------------------*/
 
-.navbar-light .navbar-brand:hover {
+.navbar-dark .navbar-brand:hover {
     color: rgba(62, 224, 217, 0.7);
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(62, 224, 217, 0.7);
 }
 
