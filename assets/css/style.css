@@ -34,6 +34,10 @@ p {
     color: #fff;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
 .navbar .navbar-nav .nav-link {
     color: #fff;
 }
@@ -57,6 +61,7 @@ p {
 
 .footer-logo {
     color: #fff;
+    font-size: 20px;
 }
 
 dl, ol, ul {
@@ -66,6 +71,9 @@ dl, ol, ul {
 
 i {
     color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /*---------------------- Footer End ----------------------*/
