@@ -30,7 +30,7 @@ p {
     background-color: rgba(8, 58, 109, 1);
 }
 
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-brand {
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ p {
     padding-left: 15px;
 }
 
-.navbar-light .navbar-toggler-icon {
+.navbar-dark .navbar-toggler-icon {
     color: #fff;
 }
 
