@@ -19,6 +19,15 @@ body {
     font-family: "Permanent Marker", sans-serif;
 }
 
+.placeholder {
+    width: 90%;
+}
+
+.placeholder2 {
+    width: 80%;
+    height: 40vh;
+}
+
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -40,6 +49,10 @@ body {
 .logo {
     font-size: 35px;
     padding-left: 15px;
+}
+
+.navbar-dark .navbar-toggler {
+    margin-right: 8px;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -90,9 +103,22 @@ i {
 
 .placesimg {
     width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*---------------------- Places End ----------------------*/
+
+/*---------------------- Hero Bottom Image ----------------------*/
+
+.herobtm {
+    background-image: url("../images/hero/docks.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*---------------------- Hero Bottom Image End ----------------------*/
 
 /*---------------------- Contact Form ----------------------*/
 
