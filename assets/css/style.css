@@ -109,16 +109,27 @@ i {
 
 /*---------------------- Places End ----------------------*/
 
-/*---------------------- Hero Bottom Image ----------------------*/
+/*---------------------- Mid1 Image ----------------------*/
 
-.herobtm {
+.mid1-img {
+    background-image: url("../images/hero/shopping.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*---------------------- Mid1 Image End ----------------------*/
+
+/*---------------------- Bottom Image ----------------------*/
+
+.btm-img {
     background-image: url("../images/hero/docks.jpg");
     background-position: center;
     background-size: cover;
     height: 50vh;
 }
 
-/*---------------------- Hero Bottom Image End ----------------------*/
+/*---------------------- Bottom Image End ----------------------*/
 
 /*---------------------- Contact Form ----------------------*/
 
