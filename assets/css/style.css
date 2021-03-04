@@ -120,6 +120,17 @@ i {
 
 /*---------------------- Mid1 Image End ----------------------*/
 
+/*---------------------- Mid2 Image ----------------------*/
+
+.mid2-img {
+    background-image: url("../images/hero/restaurants.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*---------------------- Mid2 Image End ----------------------*/
+
 /*---------------------- Bottom Image ----------------------*/
 
 .btm-img {
