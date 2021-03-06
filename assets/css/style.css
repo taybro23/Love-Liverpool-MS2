@@ -123,10 +123,6 @@ i {
     background-color: rgba(80, 139, 199, 1);
 }
 
-.fom-btn:hover {
-    background-color: rgba(8, 58, 109, 1);
-}
-
 /*---------------------- Places End ----------------------*/
 
 /*---------------------- Mid1 Image ----------------------*/
@@ -189,14 +185,17 @@ i {
     color: rgba(62, 224, 217, 0.7);
 }
 
+.fom-btn:hover {
+    background-color: rgba(8, 58, 109, 1);
+}
+
 .submitbtn:hover {
-    background-color: rgba(62, 224, 217, 0.7);
+    background-color: rgba(80, 139, 199, 1);
     border-color: #000;
-    color: #000;
 }
 
 i:hover {
-    color: rgba(62, 224, 217, 0.7);
+    color: rgba(80, 139, 199, 1);
 }
 
 /*---------------------- Hover End ----------------------*/
