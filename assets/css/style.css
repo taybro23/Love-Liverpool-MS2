@@ -197,6 +197,10 @@ i {
     background-color: rgba(8, 58, 109, 1);
 }
 
+.input:hover {
+    border-color: #000;
+}
+
 .submitbtn:hover {
     background-color: rgba(80, 139, 199, 1);
     border-color: #000;
