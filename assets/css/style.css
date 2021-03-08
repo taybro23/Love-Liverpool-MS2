@@ -103,7 +103,7 @@ i {
 /*---------------------- Hero Image ----------------------*/
 
 .hero {
-    background-image: url("../images/hero/livdocks.jpg");
+    background-image: url("../images/hero/lp1.jpg");
     background-position: center;
     background-size: cover;
     height: 90vh;
@@ -128,7 +128,7 @@ i {
 /*---------------------- Mid1 Image ----------------------*/
 
 .mid1-img {
-    background-image: url("../images/hero/shopping.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/shopping.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -139,7 +139,7 @@ i {
 /*---------------------- Mid2 Image ----------------------*/
 
 .mid2-img {
-    background-image: url("../images/hero/restaurants.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/restaurants.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -150,7 +150,7 @@ i {
 /*---------------------- Bottom Image ----------------------*/
 
 .btm-img {
-    background-image: url("../images/hero/docks.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/docks-c.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
     background-position: center;
     background-size: cover;
     height: 50vh;
