@@ -40,6 +40,12 @@ hr:not([size]) {
     height: 40vh;
 }
 
+div#map {
+    min-height: 360px;
+    width: 400px;
+}
+
+
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
