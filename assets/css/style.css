@@ -40,11 +40,6 @@ hr:not([size]) {
     height: 40vh;
 }
 
-div #map {
-    min-height: 500px;
-    width: 100%;
-}
-
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -128,6 +123,10 @@ i {
     background-color: rgba(80, 139, 199, 1);
 }
 
+.hidden {
+    display: none;
+}
+
 /*---------------------- Places End ----------------------*/
 
 /*---------------------- Mid1 Image ----------------------*/
@@ -146,6 +145,12 @@ i {
 .shop-li h3 {
     padding: 7px;
 }
+
+div #map {
+    min-height: 500px;
+    width: 100%;
+}
+
 
 /*---------------------- Shopping End ----------------------*/
 
