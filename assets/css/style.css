@@ -41,13 +41,8 @@ hr:not([size]) {
 }
 
 div #map {
-    min-height: 360px;
-    width: 400px;
-}
-
-div #map2 {
-    min-height: 360px;
-    width: 400px;
+    min-height: 500px;
+    width: 100%;
 }
 
 /*---------------------- Nav Bar ----------------------*/
@@ -229,6 +224,10 @@ i:hover {
         margin: 0 auto;
         max-width: 60%;
     }
+    div #map {
+    min-height: 500px;
+    width: 50%;
+}
 }
 
 /*---------------------- Media Queries End ----------------------*/
