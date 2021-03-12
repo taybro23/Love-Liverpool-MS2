@@ -58,5 +58,5 @@ $("#fombtn2").click(function(){
    $("#fomt2").toggle(); 
 });
 $("#fombtn3").click(function(){
-   $("#fomt3").toggle(); 
+   $(".fomt3").toggle(); 
 });
