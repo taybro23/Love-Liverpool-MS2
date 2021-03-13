@@ -12,7 +12,6 @@
     <script type="text/javascript">
         (function(){
             emailjs.init("user_1OgtIuivZWHO5VraA4PlK");
-            emailjs.send("service_4wmr0tj","Love Liverpool",{name:"Taylor",notes:"The project that I want is..."});
         })();
     </script>
     <link rel="icon" type="image/png" href="assets/images/icon/liverbird.ico"/>
@@ -292,7 +291,7 @@
                 <h3 class="perm-font text-center mt-2 mb-3">Got a question or query? Get in touch!</h3>
                 <div class="contact-form">
                     <br>
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <label for="name" class="form-label">Your Name</label>
                         <input type="text" name="name" id="name" class="form-control input mb-2" placeholder="Your Name" required>
                         <label for="emailaddress" class="form-label">Your Email Address</label>
@@ -351,6 +350,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="assets/javascript/map.js"></script>
 <script src="assets/javascript/places.js"></script>
+<script src="assets/javascript/email.js"></script>
 <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1ztj3sLASSojeO0DWA2NRWtU-kaD_UWc&callback=initMap"></script>
 </body>
 </html>
