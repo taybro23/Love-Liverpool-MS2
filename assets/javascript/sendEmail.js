@@ -4,6 +4,7 @@ window.onload = function() {
             emailjs.sendForm('service_4wmr0tj', 'Love Liverpool', this)
                 .then(function() {
                     console.log('SUCCESS!');
+                    document.getElementById("contact-form").reset();
                 }, function(error) {
                     console.log('FAILED.', error);
                 });
