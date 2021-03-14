@@ -113,6 +113,10 @@ i {
 
 /*---------------------- Places ----------------------*/
 
+.poi {
+    background-color: rgba(255, 255, 255, 0.51);
+}
+
 .placesimg {
     width: 85%;
     margin-top: 10px;
