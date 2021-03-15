@@ -31,15 +31,6 @@ hr:not([size]) {
     height: 2px;
 }
 
-.placeholder {
-    width: 90%;
-}
-
-.placeholder2 {
-    width: 80%;
-    height: 40vh;
-}
-
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -114,7 +105,7 @@ i {
 /*---------------------- Places ----------------------*/
 
 .poi {
-    background-color: rgba(255, 255, 255, 0.51);
+    background-color: rgba(204, 204, 204, 0.41);
 }
 
 .placesimg {
@@ -233,10 +224,6 @@ i:hover {
         margin: 0 auto;
         max-width: 60%;
     }
-    div #map {
-    min-height: 500px;
-    width: 50%;
-}
 }
 
 /*---------------------- Media Queries End ----------------------*/
