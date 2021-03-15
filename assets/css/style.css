@@ -146,6 +146,11 @@ div #map {
     width: 100%;
 }
 
+.mapbtn {
+    width: 40%;
+    margin: 0 auto;
+    height: 90px;
+}
 
 /*---------------------- Shopping End ----------------------*/
 
