@@ -1,25 +1,111 @@
-let map;
+
+// google maps api, coding help from CI walkthrough, google maps docs and stack overflow // 
+
+// places markers arrays and infoWindows content //
+
+var map;
+
+var placesMarkers = [];
+
+var poiMarkers = [
+    {
+        location: {
+            lat: 53.39958720492793, 
+            lng: -2.991979501521292
+        },
+        content: "<p>albert dock</p>"
+    }
+];
+var stayMarkers = [
+    {
+        location: {
+            lat: 53.400376992378675, 
+            lng: -2.9781495457043792
+        },
+        content: "<p>BASE</p>"
+    }
+];
+var restMarkers = [
+
+];
+var shopMarkers = [
+
+];
+
+// function to initiate map //
 
 function initMap() {
-  var options = {
-    center: { lat: 53.40382458576616, lng:  -2.9867386051942555 },
-    zoom: 13,
-  }
-  map = new google.maps.Map(document.getElementById("map"), options);
-  /*const marker = new google.maps.Marker({
-      position: {lat: 53.244167924458154, lng: -2.519483845663708},
-      position: {lat: 53.24517526934652, lng: -2.506016647091095},
-      map: map
-  });*/
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: { 
+            lat: 53.40382458576616, 
+            lng: -2.9867386051942555
+        },
+        zoom: 12,
+    });
+    
+// variable array for infoWindows //
 
-  function addMarker(location) {
-    const marker = new google.maps.Marker({
-      position: location,
-      map: map
-  });
-  };
-}
+var infoWindow = new google.maps.InfoWindow();
 
+// function for the markers to appear when a button is clicked // 
+function addMarker(places) {
+    var marker = new google.maps.Marker({
+        position: places.location,
+        map: map,
+        animation: google.maps.Animation.DROP,
+        });
+
+    placesMarkers.push(marker);
+
+    marker.addListener("click", function () {
+        infoWindow.setContent(places.content);
+        infoWindow.open(map, marker);
+        });
+    };
+
+// 'for loop' to show and clear markers on the map // 
+
+function showMarkers(markers) {
+    for (i = 0; i < markers.length; i++) {
+        addMarker(markers[i]);
+        }
+    };
+
+function clearMarkers() {
+    for (let i = 0; i < placesMarkers.length; i++) {
+        placesMarkers[i].setMap(null);
+        }
+    };
+
+// jquery .on"click" functions that links to each button //  
+
+$(document).ready(function () {
+    $("#placesbtn").on("click", function () {
+        clearMarkers();
+        showMarkers(poiMarkers);
+        })
+    });
+
+$(document).ready(function () {
+    $("#staybtn").on("click", function () {
+        clearMarkers();
+        showMarkers(stayMarkers);
+        })
+    });
+
+$(document).ready(function () {
+    $("#restbtn").on("click", function () {
+        clearMarkers();
+        showMarkers(restMarkers);
+        })
+    });
+
+$(document).ready(function () {
+    $("#shopbtn").on("click", function () {
+        clearMarkers();
+        showMarkers(shopMarkers);
+        })
+    });
 
 /*
 
@@ -77,4 +163,4 @@ lego {lat: 53.40398504412386, lng: -2.9876937464431954}
 schuh {lat: 53.40466639782988, lng: -2.9857994621442407}
 superdry {lat: 53.40422311116789, lng: -2.987913917148748}
 
-*/
+*/}

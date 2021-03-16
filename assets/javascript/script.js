@@ -1,19 +1,34 @@
-// places of interest buttons
+// places of interest buttons, walkthrough for jquery from CI used // 
 
-$("#fombtn1").click(function(){
-   $("#fomt1").toggle(); 
-});
-$("#fombtn2").click(function(){
-   $("#fomt2").toggle(); 
-});
-$("#fombtn3").click(function(){
-   $(".fomt3").toggle(); 
-});
+$(document).ready(function (){
+
+    $("#fombtn1").click(function(){
+        $("#fomt1").toggle(); 
+        });
+
+    $("#fombtn2").click(function(){
+        $("#fomt2").toggle(); 
+        });
+
+    $("#fombtn3").click(function(){
+        $(".fomt3").toggle(); 
+        });
+
+    });
+
+
+
+
+
+
+
+
+
 
 
 // map buttons
-
-$("#placesbtn").click(function(){
+/*
+$("#placesbtn").on("click", function(){
     $(".places-li").toggle();
 })
 
@@ -28,3 +43,5 @@ $("#restbtn").click(function(){
 $("#shopbtn").click(function(){
     $(".shop-li").toggle();
 })
+
+*/
