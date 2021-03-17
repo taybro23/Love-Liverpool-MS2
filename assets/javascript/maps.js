@@ -38,6 +38,13 @@ var poiMarkers = [
     },
     {
         location: {
+            lat: 53.40175809903073, 
+            lng: -2.9725124878807803
+        },
+        content: "<p>horizon e-sport club</p>"
+    },
+    {
+        location: {
             lat: 53.43101126801764, 
             lng: -2.9608258015201057
         },
@@ -49,13 +56,6 @@ var poiMarkers = [
             lng: -2.9733766033777096
         },
         content: "<p>liverpool cathederal</p>"
-    },
-    {
-        location: {
-            lat: 53.401428591500945, 
-            lng: -2.993585559194494
-        },
-        content: "<p>merseyside maritime museum</p>"
     },
     {
         location: {
@@ -231,6 +231,20 @@ var stayMarkers = [
 var restMarkers = [
     {
         location: {
+            lat: 53.40616780118653, 
+            lng: -2.979968985069827
+        },
+        content: "<p>afd wetherspoon</p>"
+    },
+    {
+        location: {
+            lat: 53.401140055295386,  
+            lng: -2.9688428129528748
+        },
+        content: "<p>art school restaurant</p>"
+    },
+    {
+        location: {
             lat: 53.40542889583923, 
             lng: -2.979583443847851
         },
@@ -249,6 +263,13 @@ var restMarkers = [
             lng: -2.9761467610507935
         },
         content: "<p>big noodle bar</p>"
+    },
+    {
+        location: {
+            lat: 53.405707235810276,  
+            lng: -2.9808400908790356
+        },
+        content: "<p>costa coffee</p>"
     },
     {
         location: {
@@ -287,6 +308,20 @@ var restMarkers = [
     },
     {
         location: {
+            lat: 53.40540212896286, 
+            lng: -2.9788913639435872
+        },
+        content: "<p>shiraz place</p>"
+    },
+    {
+        location: {
+            lat: 53.40498822852394, 
+            lng: -2.9797960863692863
+        },
+        content: "<p>subway</p>"
+    },
+    {
+        location: {
             lat: 53.40375657281823, 
             lng: -2.986866482462038
         },
@@ -299,50 +334,8 @@ var restMarkers = [
         },
         content: "<p>wildwood</p>"
     },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
 ];
 var shopMarkers = [
-    {
-        location: {
-            lat: 53.40413729231273, 
-            lng: -2.9880178303577543
-        },
-        content: "<p>adidas</p>"
-    },
     {
         location: {
             lat: 53.40358328192974, 
@@ -352,10 +345,31 @@ var shopMarkers = [
     },
     {
         location: {
+            lat: 53.405837867165246, 
+            lng: -2.9804687940391297
+        },
+        content: "<p>boots</p>"
+    },
+    {
+        location: {
+            lat: 53.40425713139653, 
+            lng: -2.9844174029078885
+        },
+        content: "<p>boss</p>"
+    },
+    {
+        location: {
             lat: 53.40410387943836, 
             lng: -2.9880159597750606
         },
         content: "<p>disney</p>"
+    },
+    {
+        location: {
+            lat: 53.40267420490263,  
+            lng: -2.977650723214093
+        },
+        content: "<p>forbidden planet</p>"
     },
     {
         location: {
@@ -394,6 +408,20 @@ var shopMarkers = [
     },
     {
         location: {
+            lat: 53.40546171954653, 
+            lng: -2.983608575014519
+        },
+        content: "<p>marks & spencers</p>"
+    },
+    {
+        location: {
+            lat: 53.40509535183767, 
+            lng: -2.983157783790237
+        },
+        content: "<p>primark</p>"
+    },
+    {
+        location: {
             lat: 53.40466639782988, 
             lng: -2.9857994621442407
         },
@@ -408,40 +436,11 @@ var shopMarkers = [
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.40601930551329,  
+            lng: -2.979027239727315
         },
-        content: "<p>placeholder</p>"
+        content: "<p>worlds apart</p>"
     },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    {
-        location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
-        },
-        content: "<p>placeholder</p>"
-    },
-    
 ];
 
 // function to initiate map //
