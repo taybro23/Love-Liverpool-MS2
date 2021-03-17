@@ -31,6 +31,13 @@ var poiMarkers = [
     },
     {
         location: {
+            lat: 53.42090154399837, 
+            lng: -2.9747809600030815
+        },
+        content: "<p>everton park</p>"
+    },
+    {
+        location: {
             lat: 53.43101126801764, 
             lng: -2.9608258015201057
         },
@@ -52,6 +59,27 @@ var poiMarkers = [
     },
     {
         location: {
+            lat: 53.41786966229871, 
+            lng: -2.934075386632541
+        },
+        content: "<p>newsham park and garden</p>"
+    },
+    {
+        location: {
+            lat: 53.38735153677401, 
+            lng: -2.956470093566677
+        },
+        content: "<p>princes park</p>"
+    },
+    {
+        location: {
+            lat: 53.43561857394004, 
+            lng: -2.967768089168168
+        },
+        content: "<p>stanley park</p>"
+    },
+    {
+        location: {
             lat: 53.40094859005869, 
             lng: -2.9942350880311057
         },
@@ -66,10 +94,24 @@ var poiMarkers = [
     },
     {
         location: {
+            lat: 53.4217636806696, 
+            lng: -3.0051110691207286
+        },
+        content: "<p>victoria tower</p>"
+    },
+    {
+        location: {
             lat: 53.41020258076844, 
             lng: -2.979709316867351
         },
         content: "<p>walker art gallery</p>"
+    },
+    {
+        location: {
+            lat: 53.40625661213079, 
+            lng: -2.9434061856068827
+        },
+        content: "<p>wavertree botanic gardens</p>"
     },
     {
         location: {
@@ -145,8 +187,45 @@ var stayMarkers = [
     },
     {
         location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
         },
-        content: "<p></p>"
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
     },
 ];
 var restMarkers = [
@@ -220,6 +299,41 @@ var restMarkers = [
         },
         content: "<p>wildwood</p>"
     },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
 ];
 var shopMarkers = [
     {
@@ -292,6 +406,42 @@ var shopMarkers = [
         },
         content: "<p>superdry</p>"
     },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    {
+        location: {
+            lat: 53.40542889583923, 
+            lng: -2.979583443847851
+        },
+        content: "<p>placeholder</p>"
+    },
+    
 ];
 
 // function to initiate map //
@@ -354,7 +504,7 @@ $(document).ready(function () {
 
     $("#restbtn").on("click", function () {
         clearMarkers();
-        showMarkers(restMarkers);
+        showMarkers(restMarkers);        
         })
 
     $("#shopbtn").on("click", function () {
@@ -363,3 +513,6 @@ $(document).ready(function () {
         })
     });
 }
+
+
+    // 53.40317660828174, -2.9882410101174144
