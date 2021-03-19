@@ -94,7 +94,7 @@ i {
 /*---------------------- Hero Image ----------------------*/
 
 .hero {
-    background-image: url("../images/hero/lp1.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/hero/lp1.jpg");
     background-position: center;
     background-size: cover;
     height: 90vh;

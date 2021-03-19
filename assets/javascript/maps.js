@@ -1,7 +1,7 @@
 
-// google maps api, coding help from CI walkthrough, google maps docs and stack overflow // 
+// google maps, coding help from CI walkthrough, google maps docs, stack overflow and fellow student S Vickers // 
 
-// places markers arrays and infoWindows content //
+// placesmarkers arrays and infoWindows content //
 
 var map;
 
@@ -180,52 +180,52 @@ var stayMarkers = [
     },
     {
         location: {
-            lat: 53.42228718386428, 
-            lng: -2.998556588030304
+            lat: 53.39890782385358, 
+            lng: -2.989918449120226
         },
-        content: "<p>titanic hotel</p>"
+        content: "<p>jurys inn liverpool</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.40174798063911, 
+            lng: -2.9710356966759215
         },
-        content: "<p>placeholder</p>"
+        content: "<p>hope street hotel</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.40645557071439,  
+            lng: -2.9882876659545814
         },
-        content: "<p>placeholder</p>"
+        content: "<p>hard days night hotel</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.40852776861474,  
+            lng: -2.993437507530301
         },
-        content: "<p>placeholder</p>"
+        content: "<p>hotel indigo</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.3960674774933,  
+            lng: -2.990690925356584
         },
-        content: "<p>placeholder</p>"
+        content: "<p>hotel pullman</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.40860451485431, 
+            lng: -2.9973428041275647
         },
-        content: "<p>placeholder</p>"
+        content: "<p>malmaison liverpool</p>"
     },
     {
         location: {
-            lat: 53.40542889583923, 
-            lng: -2.979583443847851
+            lat: 53.41065102729441,  
+            lng: -2.9863993907791606
         },
-        content: "<p>placeholder</p>"
+        content: "<p>the richmond apart-hotel</p>"
     },
 ];
 var restMarkers = [
@@ -235,13 +235,6 @@ var restMarkers = [
             lng: -2.979968985069827
         },
         content: "<p>afd wetherspoon</p>"
-    },
-    {
-        location: {
-            lat: 53.401140055295386,  
-            lng: -2.9688428129528748
-        },
-        content: "<p>art school restaurant</p>"
     },
     {
         location: {
@@ -287,6 +280,13 @@ var restMarkers = [
     },
     {
         location: {
+            lat: 53.40543819384935,  
+            lng: -2.9861029805378076
+        },
+        content: "<p>mcdonald's lord street</p>"
+    },
+    {
+        location: {
             lat: 53.40453687163751, 
             lng: -2.986453372684512
         },
@@ -311,7 +311,7 @@ var restMarkers = [
             lat: 53.40540212896286, 
             lng: -2.9788913639435872
         },
-        content: "<p>shiraz place</p>"
+        content: "<p>shiraz palace</p>"
     },
     {
         location: {
@@ -443,22 +443,35 @@ var shopMarkers = [
     },
 ];
 
-// function to initiate map //
+// function to initiate map, centre and zoom set //
 
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: { 
-            lat: 53.41957871447323,  
-            lng: -2.974949498360967
+            lat: 53.403726578783235,  
+            lng: -2.986816316867621
         },
-        zoom: 13,
+        zoom: 15,
     });
+
+// changes map centre and zoom on mobile devices //
+
+if (window.screen.width < 768) {
+        map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 14,
+            center: {
+                lat: 53.405361849068626, 
+                lng: -2.985339832113623
+            },
+        });
+    };
     
 // variable array for infoWindows //
 
 var infoWindow = new google.maps.InfoWindow();
 
 // function for the markers to appear when a button is clicked // 
+
 function addMarker(places) {
     var marker = new google.maps.Marker({
         position: places.location,
@@ -512,7 +525,5 @@ $(document).ready(function () {
         showMarkers(shopMarkers);
         })
     });
-}
+};
 
-
-    // 53.40317660828174, -2.9882410101174144
