@@ -131,10 +131,52 @@ var stayMarkers = [
     },
     {
         location: {
+            lat: 53.40645557071439,  
+            lng: -2.9882876659545814
+        },
+        content: "<p>hard days night hotel</p>"
+    },
+    {
+        location: {
             lat: 53.40246111586554, 
             lng: -2.989068945704278
         },
         content: "<p>hilton</p>"
+    },
+    {
+        location: {
+            lat: 53.40174798063911, 
+            lng: -2.9710356966759215
+        },
+        content: "<p>hope street hotel</p>"
+    },
+    {
+        location: {
+            lat: 53.40852776861474,  
+            lng: -2.993437507530301
+        },
+        content: "<p>hotel indigo</p>"
+    },
+    {
+        location: {
+            lat: 53.3960674774933,  
+            lng: -2.990690925356584
+        },
+        content: "<p>hotel pullman</p>"
+    },
+    {
+        location: {
+            lat: 53.39890782385358, 
+            lng: -2.989918449120226
+        },
+        content: "<p>jurys inn liverpool</p>"
+    },
+    {
+        location: {
+            lat: 53.40860451485431, 
+            lng: -2.9973428041275647
+        },
+        content: "<p>malmaison liverpool</p>"
     },
     {
         location: {
@@ -177,48 +219,6 @@ var stayMarkers = [
             lng: -2.9806678726845903
         },
         content: "<p>the resident liverpool </p>"
-    },
-    {
-        location: {
-            lat: 53.39890782385358, 
-            lng: -2.989918449120226
-        },
-        content: "<p>jurys inn liverpool</p>"
-    },
-    {
-        location: {
-            lat: 53.40174798063911, 
-            lng: -2.9710356966759215
-        },
-        content: "<p>hope street hotel</p>"
-    },
-    {
-        location: {
-            lat: 53.40645557071439,  
-            lng: -2.9882876659545814
-        },
-        content: "<p>hard days night hotel</p>"
-    },
-    {
-        location: {
-            lat: 53.40852776861474,  
-            lng: -2.993437507530301
-        },
-        content: "<p>hotel indigo</p>"
-    },
-    {
-        location: {
-            lat: 53.3960674774933,  
-            lng: -2.990690925356584
-        },
-        content: "<p>hotel pullman</p>"
-    },
-    {
-        location: {
-            lat: 53.40860451485431, 
-            lng: -2.9973428041275647
-        },
-        content: "<p>malmaison liverpool</p>"
     },
     {
         location: {
@@ -448,10 +448,10 @@ var shopMarkers = [
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: { 
-            lat: 53.403726578783235,  
-            lng: -2.986816316867621
+            lat: 53.40602916240997,  
+            lng: -2.9865655303385044
         },
-        zoom: 15,
+        zoom: 14,
     });
 
 // changes map centre and zoom on mobile devices //
@@ -505,11 +505,6 @@ function clearMarkers() {
 // jquery .on"click" functions that links to each button //  
 
 $(document).ready(function () {
-    $("#placesbtn").on("click", function () {
-        clearMarkers();
-        showMarkers(poiMarkers);
-        })
-
     $("#staybtn").on("click", function () {
         clearMarkers();
         showMarkers(stayMarkers);
@@ -526,4 +521,3 @@ $(document).ready(function () {
         })
     });
 };
-
