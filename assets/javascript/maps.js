@@ -13,7 +13,7 @@ var poiMarkers = [
             lat: 53.401454607754495, 
             lng: -2.992285546295964
         },
-        content: "<p>albert dock</p>"
+        content: "<h6>albert dock</h6><p>opening hours are as follows.</p>"
     },
     {
         location: {
@@ -469,6 +469,7 @@ function addMarker(places) {
     placesMarkers.push(marker);
 
     marker.addListener("click", function () {
+        infoWindow.close();
         infoWindow.setContent(places.content);
         infoWindow.open(map, marker);
         });
