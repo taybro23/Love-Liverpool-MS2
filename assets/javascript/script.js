@@ -1,3 +1,15 @@
+// scroll to top button. code followed from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco
+
+const btnScroll = document.querySelector("#btnscroll");
+
+btnScroll.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behaviour: "smooth"
+    });
+});
+
 // places of interest buttons, walkthrough for jquery from CI used // 
 
 $(document).ready(function (){
@@ -28,20 +40,4 @@ $(document).ready(function (){
 
     });
 
-
-// the beatles, albert dock, liverpool cathederal 
-
-
-
-// scroll to top button. code followed from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco
-
-const btnScroll = document.querySelector("#btnscroll");
-
-btnScroll.addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behaviour: "smooth"
-    });
-});
 
