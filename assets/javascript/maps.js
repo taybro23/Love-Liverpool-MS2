@@ -1,5 +1,5 @@
 
-// google maps, coding help from CI walkthrough, google maps docs, stack overflow and fellow student S Vickers // 
+// javascript for google maps, coding help from CI walkthrough, google maps docs, stack overflow and fellow student S Vickers // 
 
 // placesmarkers arrays and infoWindows content //
 
@@ -7,120 +7,6 @@ var map;
 
 var placesMarkers = [];
 
-var poiMarkers = [
-    {
-        location: {
-            lat: 53.401454607754495, 
-            lng: -2.992285546295964
-        },
-        content: "<h6>albert dock</h6><p>opening hours are as follows.</p>"
-    },
-    {
-        location: {
-            lat: 53.40035911630307, 
-            lng: -2.9765951763200786
-        },
-        content: "<p>china town</p>"
-    },
-    {
-        location: {
-            lat: 53.438972317622344, 
-            lng: -2.9663729457028825
-        },
-        content: "<p>everton</p>"
-    },
-    {
-        location: {
-            lat: 53.42090154399837, 
-            lng: -2.9747809600030815
-        },
-        content: "<p>everton park</p>"
-    },
-    {
-        location: {
-            lat: 53.40175809903073, 
-            lng: -2.9725124878807803
-        },
-        content: "<p>horizon e-sport club</p>"
-    },
-    {
-        location: {
-            lat: 53.43101126801764, 
-            lng: -2.9608258015201057
-        },
-        content: "<p>liverpool fc</p>"
-    },
-    {
-        location: {
-            lat: 53.39762340637288, 
-            lng: -2.9733766033777096
-        },
-        content: "<p>liverpool cathederal</p>"
-    },
-    {
-        location: {
-            lat: 53.41786966229871, 
-            lng: -2.934075386632541
-        },
-        content: "<p>newsham park and garden</p>"
-    },
-    {
-        location: {
-            lat: 53.38735153677401, 
-            lng: -2.956470093566677
-        },
-        content: "<p>princes park</p>"
-    },
-    {
-        location: {
-            lat: 53.43561857394004, 
-            lng: -2.967768089168168
-        },
-        content: "<p>stanley park</p>"
-    },
-    {
-        location: {
-            lat: 53.40094859005869, 
-            lng: -2.9942350880311057
-        },
-        content: "<p>tate</p>"
-    },
-    {
-        location: {
-            lat: 53.399543995759544, 
-            lng: -2.9921323880311648
-        },
-        content: "<p>the beatles story</p>"
-    },
-    {
-        location: {
-            lat: 53.4217636806696, 
-            lng: -3.0051110691207286
-        },
-        content: "<p>victoria tower</p>"
-    },
-    {
-        location: {
-            lat: 53.41020258076844, 
-            lng: -2.979709316867351
-        },
-        content: "<p>walker art gallery</p>"
-    },
-    {
-        location: {
-            lat: 53.40625661213079, 
-            lng: -2.9434061856068827
-        },
-        content: "<p>wavertree botanic gardens</p>"
-    },
-    {
-        location: {
-            lat: 53.410125837519765, 
-            lng: -2.981372286542844
-        },
-        content: "<p>world history museum</p>"
-    }
-];
 var stayMarkers = [
     {
         location: {

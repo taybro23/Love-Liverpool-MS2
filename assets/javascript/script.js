@@ -35,7 +35,7 @@ $(document).ready(function (){
         });
     
     $("#fombtn4").click(function(){
-        $("#fomt4").toggle(); 
+        $(".fomt4").toggle(); 
         });
 
     $("#fombtn5").click(function(){
