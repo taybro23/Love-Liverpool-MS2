@@ -13,7 +13,25 @@ $(document).ready(function (){
     $("#fombtn3").click(function(){
         $(".fomt3").toggle(); 
         });
+    
+    $("#fombtn4").click(function(){
+        $("#fomt4").toggle(); 
+        });
+
+    $("#fombtn5").click(function(){
+        $("#fomt5").toggle(); 
+        });
+
+    $("#fombtn6").click(function(){
+        $("#fomt6").toggle(); 
+        });
+
     });
+
+
+// the beatles, albert dock, liverpool cathederal 
+
+
 
 // scroll to top button. code followed from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco
 
