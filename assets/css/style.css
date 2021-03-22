@@ -174,17 +174,6 @@ div #map {
 
 /*---------------------- Shopping End ----------------------*/
 
-/*---------------------- Mid2 Image ----------------------*/
-
-.mid2-img {
-    background-image: url("../images/breaks/restaurants.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
-}
-
-/*---------------------- Mid2 Image End ----------------------*/
-
 /*---------------------- Bottom Image ----------------------*/
 
 .btm-img {
