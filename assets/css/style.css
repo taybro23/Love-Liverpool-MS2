@@ -37,6 +37,14 @@ hr:not([size]) {
     background-color: rgba(8, 58, 109, 1);
 }
 
+.navbar-dark {
+    transition: .7s;
+}
+
+.navbar-dark.scrolled {
+    background-color: rgb(8 58 109 / 70%);
+}
+
 .navbar-dark .navbar-brand {
     color: #fff;
 }
@@ -155,7 +163,7 @@ dl, ol, ul {
 
 /*---------------------- Mid1 Image End ----------------------*/
 
-/*---------------------- Shopping ----------------------*/
+/*---------------------- Liverpool One ----------------------*/
 
 .shop-li h3 {
     padding: 7px;
@@ -172,7 +180,7 @@ div #map {
     height: 90px;
 }
 
-/*---------------------- Shopping End ----------------------*/
+/*---------------------- Liverpool One End ----------------------*/
 
 /*---------------------- Bottom Image ----------------------*/
 
