@@ -9,6 +9,7 @@
 body {
     font-family: "Kanit", sans-serif;
     padding-top: 77px;
+    background-color: #bccedd21;
 }
 
 .underline {
@@ -158,6 +159,10 @@ dl, ol, ul {
     display: none;
 }
 
+.btn-secondary {
+    border-color: rgba(80, 139, 199, 1);
+}
+
 /*---------------------- Places End ----------------------*/
 
 /*---------------------- Mid1 Image ----------------------*/
@@ -188,6 +193,17 @@ div #map {
     height: 90px;
 }
 
+.btn-outline-primary {
+    background-color: #ffffffb3;
+    color: rgba(80, 139, 199, 1);
+    border-color: rgba(80, 139, 199, 1);
+}
+
+.btn-outline-primary:active {
+    background-color: rgba(8, 58, 109, 1);
+    border-color: rgba(8, 58, 109, 1);
+}
+
 /*---------------------- Liverpool One End ----------------------*/
 
 /*---------------------- Bottom Image ----------------------*/
@@ -210,11 +226,14 @@ div #map {
 
 .form-control {
     line-height: 2.5;
+    background-color: #ffffffb3;
 }
 
 .submitbtn {
     background-color: #000;
 }
+
+/* background-color: #6c93b652; #789fc240; #789fc221; #bccedd21; */
 
 /*---------------------- Contact Form End ----------------------*/
 
@@ -234,6 +253,11 @@ div #map {
 
 .fom-btn:hover {
     background-color: rgba(8, 58, 109, 1);
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(8, 58, 109, 1);
+    border-color: rgba(8, 58, 109, 1);
 }
 
 .input:hover {

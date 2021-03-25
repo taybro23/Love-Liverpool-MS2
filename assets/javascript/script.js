@@ -39,11 +39,11 @@ $(document).ready(function (){
         });
 
     $("#fombtn5").click(function(){
-        $("#fomt5").toggle(); 
+        $(".fomt5").toggle(); 
         });
 
     $("#fombtn6").click(function(){
-        $("#fomt6").toggle(); 
+        $(".fomt6").toggle(); 
         });
 
     });
