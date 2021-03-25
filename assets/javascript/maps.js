@@ -13,21 +13,21 @@ var stayMarkers = [
             lat: 53.400376992378675, 
             lng: -2.9781495457043792
         },
-        content: "<p>BASE</p>"
+        content: '<a href="https://www.baseservicedapartments.co.uk/" target="_blank"><h5 class="underline">BASE Serviced Apartments Duke Street</h5></a> <h6>136 Duke St, Liverpool, L1 5BB</h6> <p>Tel: 0151 702 9222</p>'
     },
     {
         location: {
             lat: 53.40645557071439,  
             lng: -2.9882876659545814
         },
-        content: "<p>hard days night hotel</p>"
+        content: '<a href="http://www.harddaysnighthotel.com/" target="_blank"><h5 class="underline">Hard Days Night Hotel</h5></a> <h6>Central Buildings, N John St, Liverpool, L2 6RR</h6> <p>Tel: 0151 236 1964</p>'
     },
     {
         location: {
             lat: 53.40246111586554, 
             lng: -2.989068945704278
         },
-        content: "<p>hilton</p>"
+        content: '<a href="https://www.hilton.com/en/hotels/lplhihi-hilton-liverpool-city-centre/" target="_blank"><h5 class="underline">Hilton Liverpool City Centre</h5></a> <h6>3 Thomas Steers Way, Liverpool, L1 8LW</h6> <p>Tel: 0151 708 4200</p>'
     },
     {
         location: {
