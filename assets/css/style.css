@@ -219,6 +219,10 @@ div #map {
 
 /*---------------------- Contact Form ----------------------*/
 
+.pad-t {
+    padding-top: 60px;
+}
+
 .contact-form {
     margin: 0 auto;
     max-width: 80%;
