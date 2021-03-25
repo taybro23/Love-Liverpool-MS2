@@ -122,105 +122,105 @@ var restMarkers = [
             lat: 53.40616780118653, 
             lng: -2.979968985069827
         },
-        content: "<p>afd wetherspoon</p>"
+        content: '<a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/merseyside/the-richard-john-blackler-liverpool" target="_blank"><h5 class="underline">The Richard John Blackler - J D Wetherspoon</h5></a> <h6>Units 1 & 2, Charlotte Row, Great Charlotte St, Liverpool, L1 1HU</h6> <p>Tel: 0151 709 4802</p>'
     },
     {
         location: {
             lat: 53.40542889583923, 
             lng: -2.979583443847851
         },
-        content: "<p>bella italia</p>"
+        content: '<a href="https://www.bellaitalia.co.uk/italian-restaurant/liverpool/ranelagh-street" target="_blank"><h5 class="underline">Bella Italia Liverpool</h5></a> <h6>39 Ranelagh St, Liverpool, L1 1JP</h6> <p>Tel: 0151 459 8133</p>'
     },
     {
         location: {
             lat: 53.40343049106223, 
             lng: -2.9844827303577763
         },
-        content: "<p>bem brazil</p>"
+        content: '<a href="https://www.bellaitalia.co.uk/italian-restaurant/liverpool/ranelagh-street" target="_blank"><h5 class="underline">Bem Brasil Liverpool</h5></a> <h6>47-49 Hanover St, Liverpool, L1 3DN</h6> <p>Tel: 0151 709 0044</p>'
     },
     {
         location: {
             lat: 53.40158450797556, 
             lng: -2.9761467610507935
         },
-        content: "<p>big noodle bar</p>"
+        content: '<a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186337-d2540768-Reviews-Big_Bowl_Noodle_Bar-Liverpool_Merseyside_England.html" target="_blank"><h5 class="underline">Big Bowl Noodle Bar</h5></a> <h6>12-14 Berry St, Liverpool, L1 4JF</h6> <p>Tel: 0151 707 1559</p>'
     },
     {
         location: {
             lat: 53.405707235810276,  
             lng: -2.9808400908790356
         },
-        content: "<p>costa coffee</p>"
+        content: '<a href="https://www.costa.co.uk/" target="_blank"><h5 class="underline">Costa Coffee</h5></a> <h6>Great Charlotte St, Liverpool, L1 1QR</h6> <p>Tel: 0151 708 8503</p>'
     },
     {
         location: {
             lat: 53.404294476478285, 
             lng: -2.987313888030986
         },
-        content: "<p>five guys</p>"
+        content: '<a href="https://restaurants.fiveguys.co.uk/north-west/p3/p4-the-terrace-14-paradise-st" target="_blank"><h5 class="underline">Five Guys Burger & Fries</h5></a> <h6>The Terrace, P3/P4, 14 Paradise St, Liverpool, L1 8JF</h6> <p>Tel: 0151 709 3479</p>'
     },
     {
         location: {
             lat: 53.404402587555, 
             lng: -2.987102516867591
         },
-        content: "<p>las iguanas</p>"
+        content: '<a href="https://www.iguanas.co.uk/restaurants/liverpool" target="_blank"><h5 class="underline">Las Iguanas - Liverpool</h5></a> <h6>One, 14 Paradise St, Liverpool, L1 8JF</h6> <p>Tel: 0151 459 8161</p>'
     },
     {
         location: {
             lat: 53.40543819384935,  
             lng: -2.9861029805378076
         },
-        content: "<p>mcdonald's lord street</p>"
+        content: '<a href="https://www.mcdonalds.com/gb/en-gb/location/liverpool/liverpool-lord-st/8286-lord-street/8260178.html" target="_blank"><h5 class="underline">McDonalds Liverpool Lord St</h5></a> <h6>82/86 Lord St, Liverpool, L2 1TL</h6> <p>Tel: 0151 709 1716</p>'
     },
     {
         location: {
             lat: 53.40453687163751, 
             lng: -2.986453372684512
         },
-        content: "<p>nandos</p>"
+        content: '<a href="https://www.nandos.co.uk/restaurants/liverpool-one" target="_blank"><h5 class="underline">Nandos Liverpool - ONE</h5></a> <h6>ONE, 14 Paradise St Unit P1r, Liverpool, L1 8JF</h6> <p>Tel: 0151 709 7780</p>'
     },
     {
         location: {
             lat: 53.40284938594777, 
             lng: -2.977070215011363
         },
-        content: "<p>pho</p>"
+        content: '<a href="https://www.phocafe.co.uk/locations/liverpool/" target="_blank"><h5 class="underline">Pho</h5></a> <h6>79 Bold St, Liverpool, L1 4EZ</h6> <p>Tel: 0151 909 8450</p>'
     },
     {
         location: {
             lat: 53.40401878302513, 
             lng: -2.9863889996648156
         },
-        content: "<p>pizza hut</p>"
+        content: '<a href="https://www.pizzahut.co.uk/restaurants/find-a-hut/liverpool/liverpool-paradise-st/" target="_blank"><h5 class="underline">Pizza Hut Liverpool One</h5></a> <h6>Unit P3R Block, 13b Paradise St, Liverpool, L1 8JF</h6> <p>Tel: 0151 708 6600</p>'
     },
     {
         location: {
             lat: 53.40540212896286, 
             lng: -2.9788913639435872
         },
-        content: "<p>shiraz palace</p>"
+        content: '<a href="http://www.shirazpalace.co.uk/" target="_blank"><h5 class="underline">Shiraz Palace</h5></a> <h6>45 Ranelagh St, Liverpool, L1 1JR</h6> <p>Tel: 0151 707 7700</p>'
     },
     {
         location: {
             lat: 53.40498822852394, 
             lng: -2.9797960863692863
         },
-        content: "<p>subway</p>"
+        content: '<a href="https://www.subway.com/en-gb/" target="_blank"><h5 class="underline">Subway</h5></a> <h6>Unit 3 Central Shopping Centre Unit 3, Liverpool, L1 1QT</h6> <p>Tel: 0151 709 4514</p>'
     },
     {
         location: {
             lat: 53.40375657281823, 
             lng: -2.986866482462038
         },
-        content: "<p>tgi fridays</p>"
+        content: '<a href="https://www.tgifridays.co.uk/locations/liverpool-one/" target="_blank"><h5 class="underline">TGI Fridays - Liverpool One</h5></a> <h6>14 Paradise St, Liverpool, L1 8JF</h6> <p>Tel: 0330 460 5510</p>'
     },
     {
         location: {
             lat: 53.40510718106745, 
             lng: -2.9815583168675643
         },
-        content: "<p>wildwood</p>"
+        content: '<a href="https://wildwoodrestaurants.co.uk/restaurant/liverpool/" target="_blank"><h5 class="underline">Wildwood</h5></a> <h6>Unit 2a Clayton Square Shopping Centre, 2 Church St, Liverpool, L1 1QR</h6> <p>Tel: 0151 541 2900</p>'
     },
 ];
 var shopMarkers = [
