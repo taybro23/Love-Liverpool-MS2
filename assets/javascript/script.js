@@ -1,3 +1,4 @@
+
 // scroll to top button. code followed from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco
 
 const btnScroll = document.querySelector("#btnscroll");
