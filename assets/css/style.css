@@ -133,17 +133,13 @@ dl, ol, ul {
     outline: none;
     cursor: pointer;
     border: none;
-    background-color: rgba(104, 192, 255, 1);
+    background-color: rgba(80, 139, 199, 1);
     color: rgba(8, 58, 109, 1);
 }
 
 /*---------------------- Scroll To Top Button End ----------------------*/
 
 /*---------------------- Places ----------------------*/
-
-/*.poi {
-    background-color: rgba(204, 204, 204, 0.41);
-}*/
 
 .placesimg {
     width: 85%;
@@ -236,8 +232,6 @@ div #map {
 .submitbtn {
     background-color: #000;
 }
-
-/* background-color: #6c93b652; #789fc240; #789fc221; #bccedd21; */
 
 /*---------------------- Contact Form End ----------------------*/
 

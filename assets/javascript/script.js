@@ -24,28 +24,28 @@ $(document).ready(function (){
 
     $("#fombtn1").click(function(){
         $("#fomt1").toggle(); 
-        });
+    });
 
     $("#fombtn2").click(function(){
         $("#fomt2").toggle(); 
-        });
+    });
 
     $("#fombtn3").click(function(){
         $(".fomt3").toggle(); 
-        });
+    });
     
     $("#fombtn4").click(function(){
         $(".fomt4").toggle(); 
-        });
+    });
 
     $("#fombtn5").click(function(){
         $(".fomt5").toggle(); 
-        });
+    });
 
     $("#fombtn6").click(function(){
         $(".fomt6").toggle(); 
-        });
-
     });
+
+});
 
 
