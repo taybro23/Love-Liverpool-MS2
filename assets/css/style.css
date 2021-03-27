@@ -32,6 +32,10 @@ hr:not([size]) {
     height: 2px;
 }
 
+.hidden {
+    display: none;
+}
+
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -149,10 +153,6 @@ dl, ol, ul {
 
 .fom-btn {
     background-color: rgba(80, 139, 199, 1);
-}
-
-.hidden {
-    display: none;
 }
 
 .btn-secondary {
@@ -279,6 +279,9 @@ div #map {
     .contact-form {
         margin: 0 auto;
         max-width: 60%;
+    }
+    .mapbtn {
+        width: 30%;
     }
 }
 
