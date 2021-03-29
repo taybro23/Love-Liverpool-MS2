@@ -33,10 +33,6 @@ hr:not([size]) {
     height: 2px;
 }
 
-.hidden {
-    display: none;
-}
-
 /*---------------------- Nav Bar ----------------------*/
 
 .navbar {
@@ -172,14 +168,6 @@ dl, ol, ul {
     transition: opacity 0.30s;
 }
 
-.fom-btn {
-    background-color: rgba(80, 139, 199, 1);
-}
-
-.btn-secondary {
-    border-color: rgba(80, 139, 199, 1);
-}
-
 /*---------------------- Places End ----------------------*/
 
 /*---------------------- Mid1 Image ----------------------*/
@@ -238,6 +226,10 @@ div #map {
 
 .pad-t {
     padding-top: 60px;
+}
+
+.hidden {
+    display: none;
 }
 
 .contact-form {
