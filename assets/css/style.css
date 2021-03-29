@@ -146,6 +146,8 @@ dl, ol, ul {
 
 /*---------------------- Places ----------------------*/
 
+/* code for image-overlay followed from youtube video - https://www.youtube.com/watch?v=exb2ab72Xhs */
+
 .image-div {
     position: relative;
     margin-top: 10px;

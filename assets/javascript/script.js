@@ -58,14 +58,3 @@ $(document).ready(function() {
     });
 
 });*/
-
-
-// places mouse over event
-
-
-function placesOne() {
-    document.getElementsByClassName("image-overlay").style.display = "block";
-};
-function placesOneOut() {
-    document.getElementsByClassName("image-overlay").style.display = "none";
-};
