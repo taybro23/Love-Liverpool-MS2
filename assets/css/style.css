@@ -170,10 +170,6 @@ dl, ol, ul {
     transition: opacity 0.30s;
 }
 
-.image-overlay:hover {
-    opacity: 1;
-}
-
 .fom-btn {
     background-color: rgba(80, 139, 199, 1);
 }
@@ -270,6 +266,10 @@ div #map {
 
 #btnscroll:hover {
     color: #fff;
+}
+
+.image-overlay:hover {
+    opacity: 1;
 }
 
 .fom-btn:hover {
