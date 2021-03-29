@@ -9,7 +9,7 @@
 
 body {
     font-family: "Kanit", sans-serif;
-    padding-top: 77px;
+    padding-top: 70px;
     background-color: #bccedd21;
 }
 
@@ -293,6 +293,9 @@ div #map {
 /*---------------------- Media Queries ----------------------*/
 
 @media(min-width: 992px) {
+    body {
+        padding-top: 77px;
+    }
     .logo {
         font-size: 35px;
     }
@@ -303,6 +306,12 @@ div #map {
             margin: 0 auto;
             max-width: 60%;
         }
+}
+
+@media(min-width: 1200px) {
+    .image-overlay {
+        font-size: 20px;
+    }
 }
 
 /*---------------------- Media Queries End ----------------------*/
