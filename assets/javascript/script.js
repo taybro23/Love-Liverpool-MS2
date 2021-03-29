@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 // places of interest buttons, walkthrough for jquery from CI used // 
 
-$(document).ready(function (){
+/*$(document).ready(function (){
 
     $("#fombtn1").click(function(){
         $("#fomt1").toggle(); 
@@ -57,6 +57,15 @@ $(document).ready(function (){
         $(".fomt6").toggle(); 
     });
 
-});
+});*/
 
 
+// places mouse over event
+
+
+function placesOne() {
+    document.getElementsByClassName("image-overlay").style.display = "block";
+};
+function placesOneOut() {
+    document.getElementsByClassName("image-overlay").style.display = "none";
+};
