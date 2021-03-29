@@ -60,7 +60,7 @@ hr:not([size]) {
 }
 
 .logo {
-    font-size: 35px;
+    font-size: 33px;
     padding-left: 15px;
 }
 
@@ -293,6 +293,9 @@ div #map {
 /*---------------------- Media Queries ----------------------*/
 
 @media(min-width: 992px) {
+    .logo {
+        font-size: 35px;
+    }
     .mapbtn {
             width: 30%;
         }    
