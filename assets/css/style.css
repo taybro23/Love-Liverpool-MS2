@@ -308,10 +308,4 @@ div #map {
         }
 }
 
-@media(min-width: 1200px) {
-    .image-overlay {
-        font-size: 20px;
-    }
-}
-
 /*---------------------- Media Queries End ----------------------*/

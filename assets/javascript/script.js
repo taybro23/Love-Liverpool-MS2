@@ -1,7 +1,7 @@
 
-// scroll to top button. code followed from youtube video and w3s - https://www.youtube.com/watch?v=FK5DEa1Hvco / https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+// scroll to top button. code followed from w3s - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
-const btnScroll = document.querySelector("#btnscroll");
+var btnScroll = document.querySelector("#btnscroll");
 
 window.onscroll = function() {scrollFunction()};
 
