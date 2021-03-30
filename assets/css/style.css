@@ -170,16 +170,16 @@ dl, ol, ul {
 
 /*---------------------- Places End ----------------------*/
 
-/*---------------------- Mid1 Image ----------------------*/
+/*---------------------- Liverpool One Image ----------------------*/
 
 .mid1-img {
-    background-image: url("../images/breaks/shopping.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/l1-c.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
     background-position: center;
     background-size: cover;
     height: 50vh;
 }
 
-/*---------------------- Mid1 Image End ----------------------*/
+/*---------------------- Liverpool One Image End ----------------------*/
 
 /*---------------------- Liverpool One ----------------------*/
 
