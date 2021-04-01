@@ -104,41 +104,26 @@ dl, ol, ul {
 /*---------------------- Hero ----------------------*/
 
 .hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/hero/lp1.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/hero/lp1-c.jpg");
     background-position: center;
     background-size: cover;
     height: 90vh;
+    position: relative;
 }
 
 .hero-text {
     color: #fff;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(8 58 109 / 70%);
+    border-radius: 10px;
 }
 
 /*---------------------- Hero End ----------------------*/
-
-/*---------------------- Scroll To Top Button ----------------------*/
-
-/* code followed from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco */
-
-#btnscroll {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    border: none;
-    background-color: rgba(80, 139, 199, 1);
-    color: rgba(8, 58, 109, 1);
-}
-
-/*---------------------- Scroll To Top Button End ----------------------*/
 
 /*---------------------- Places ----------------------*/
 
