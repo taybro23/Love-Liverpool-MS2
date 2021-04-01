@@ -85,7 +85,7 @@ var stayMarkers = [
             lat: 53.404976789410135, 
             lng: -2.982064615011278
         },
-        content: '<a href="https://www.questapartments.co.uk/properties/merseyside/liverpool/quest-liverpool-city-centre/hotel-deals?gclid=CjwKCAjw6fCCBhBNEiwAem5SOys4xheupaNGmcfxVOvWOQZJO0nF6R-Kpe7sJCg0KHiezzQPtjE86BoCu4AQAvD_BwE" target="_blank"><h5>Quest Liverpool City Centre</h5></a> <h6>72 Church St, Liverpool L1 3AY</h6> <p>Tel: 0151 318 1809</p>'
+        content: '<a href="https://www.questapartments.co.uk/properties/merseyside/liverpool/quest-liverpool-city-centre/hotel-deals?gclid=CjwKCAjw6fCCBhBNEiwAem5SOys4xheupaNGmcfxVOvWOQZJO0nF6R-Kpe7sJCg0KHiezzQPtjE86BoCu4AQAvD_BwE" target="_blank"><h5>Quest Liverpool City Centre</h5></a> <h6>72 Church St, Liverpool, L1 3AY</h6> <p>Tel: 0151 318 1809</p>'
     },
     {
         location: {
@@ -229,105 +229,105 @@ var shopMarkers = [
             lat: 53.40358328192974, 
             lng: -2.987189111119584
         },
-        content: "<p>apple</p>"
+        content: '<a href="https://www.apple.com/uk/retail/liverpool/" target="_blank"><h5>Apple</h5></a> <h6>One, Liverpool, L1 8BU</h6> <p>Tel: 0151 472 7200</p>'
     },
     {
         location: {
             lat: 53.405837867165246, 
             lng: -2.9804687940391297
         },
-        content: "<p>boots</p>"
+        content: '<a href="https://www.boots.com/stores/1150-liverpool-clayton-square-l1-1qr" target="_blank"><h5>Boots</h5></a> <h6>Great Charlotte St, Liverpool, L1 1QR</h6> <p>Tel: 0151 709 4711</p>'
     },
     {
         location: {
             lat: 53.40425713139653, 
             lng: -2.9844174029078885
         },
-        content: "<p>boss</p>"
+        content: '<a href="https://www.hugoboss.com/uk/boss-store-16-peters-arcade-liverpool/" target="_blank"><h5>BOSS</h5></a> <h6>One, Peters Arcade, 16, Liverpool, L1 3DE</h6> <p>Tel: 0151 702 0390</p>'
     },
     {
         location: {
             lat: 53.40410387943836, 
             lng: -2.9880159597750606
         },
-        content: "<p>disney</p>"
+        content: '<a href="https://stores.shopdisney.co.uk/liverpool/liverpool/790/" target="_blank"><h5>Disney Store</h5></a> <h6>Units 41 and 42, S John St, Liverpool, L1 8BJ</h6> <p>Tel: 0151 708 5053</p>'
     },
     {
         location: {
             lat: 53.40267420490263,  
             lng: -2.977650723214093
         },
-        content: "<p>forbidden planet</p>"
+        content: '<a href="https://forbiddenplanet.com/stores/liverpool-store/" target="_blank"><h5>Forbidden Planet</h5></a> <h6>92 Bold St, Liverpool, L1 4HY</h6> <p>Tel: 0151 707 1491</p>'
     },
     {
         location: {
             lat: 53.403872656793375, 
             lng: -2.986969681900231
         },
-        content: "<p>hmv</p>"
+        content: '<a href="https://www.hmv.com/store-finder/hmv-liverpool-one" target="_blank"><h5>HMV</h5></a> <h6>One, Unit 71, 72, 19 S John St, Liverpool, L1 8BJ</h6> <p>Tel: 0843 221 0257</p>'
     },
     {
         location: {
             lat: 53.403434267712484, 
             lng: -2.9877282830248446
         },
-        content: "<p>hollister</p>"
+        content: '<a href="https://www.hollisterco.com/shop/uk/clothing-stores/GB/Liverpool/GB/30177" target="_blank"><h5>Hollister Co.</h5></a> <h6>Unit 60, 62 S John St, Liverpool, L1 8BJ</h6> <p>Tel: 0151 707 8182</p>'
     },
     {
         location: {
             lat: 53.404801644039054, 
             lng: -2.984747554373465
         },
-        content: "<p>jd</p>"
+        content: '<a href="https://www.jdsports.co.uk/store-locator/liverpool-one/263/" target="_blank"><h5>JD Sports</h5></a> <h6>One, 4 Paradise St, Msu4B, Liverpool, L1 8JF</h6> <p>Tel: 0151 559 1351</p>'
     },
     {
         location: {
             lat: 53.402878336618016, 
             lng: -2.986666283164652
         },
-        content: "<p>john lewis</p>"
+        content: '<a href="https://www.johnlewis.com/our-shops/liverpool" target="_blank"><h5>John Lewis & Partners</h5></a> <h6>70 S John St, Liverpool, L1 8BJ</h6> <p>Tel: 0151 709 7070</p>'
     },
     {
         location: {
             lat: 53.40398504412386, 
             lng: -2.9876937464431954
         },
-        content: "<p>lego</p>"
+        content: '<a href="https://www.lego.com/en-gb/stores" target="_blank"><h5>The LEGO® Store Liverpool</h5></a> <h6>50 South John Street Liverpool One Shopping Centre, Liverpool, L1 8BJ</h6> <p>Tel: 0151 708 6017</p>'
     },
     {
         location: {
             lat: 53.40546171954653, 
             lng: -2.983608575014519
         },
-        content: "<p>marks & spencers</p>"
+        content: '<a href="https://www.marksandspencer.com/stores/liverpool-0437" target="_blank"><h5>Marks and Spencer</h5></a> <h6>35 Church St, Liverpool, L1 1DF</h6> <p>Tel: 0151 708 8383</p>'
     },
     {
         location: {
             lat: 53.40509535183767, 
             lng: -2.983157783790237
         },
-        content: "<p>primark</p>"
+        content: '<a href="https://stores.primark.com/united-kingdom/liverpool/48-56-church-street" target="_blank"><h5>Primark</h5></a> <h6>48 - 56 Church St, Liverpool, L1 3AY</h6> <p>Tel: 0151 709 4635</p>'
     },
     {
         location: {
             lat: 53.40466639782988, 
             lng: -2.9857994621442407
         },
-        content: "<p>schuh</p>"
+        content: '<a href="https://www.schuh.co.uk/stores/liverpool-one/" target="_blank"><h5>Schuh</h5></a> <h6>Liverpool One Shopping Centre, 17/18 Paradise St, Liverpool, L1 3EU</h6> <p>Tel: 0151 909 4643</p>'
     },
     {
         location: {
             lat: 53.40422311116789, 
             lng: -2.987913917148748
         },
-        content: "<p>superdry</p>"
+        content: '<a href="https://stores.superdry.com/gb/liverpool/msu2a" target="_blank"><h5>Superdry</h5></a> <h6>MSU2a, 5 S John St, Liverpool, L1 8BJ</h6> <p>Tel: 0151 707 7733</p>'
     },
     {
         location: {
             lat: 53.40601930551329,  
             lng: -2.979027239727315
         },
-        content: "<p>worlds apart</p>"
+        content: '<a href="https://forbiddenplanet.co.uk/tag/worlds-apart-liverpool/" target="_blank"><h5>Worlds Apart</h5></a> <h6>Lime Court, 58-60 Lime St, Liverpool, L1 1JN</h6> <p>Tel: 0151 707 0839</p>'
     },
 ];
 
