@@ -354,7 +354,7 @@ if (window.screen.width < 768) {
     });
 };
     
-// variable array for infoWindows //
+// variable for infoWindows //
 
 var infoWindow = new google.maps.InfoWindow();
 
@@ -406,6 +406,5 @@ $(document).ready(function () {
     $("#shopbtn").on("click", function () {
         clearMarkers();
         showMarkers(shopMarkers);
-        })
-    });
-};
+    })
+})};
