@@ -115,19 +115,9 @@ dl, ol, ul {
     position: relative;
 }
 
-.hero-text {
-    color: #fff;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    margin: 0 auto;
-    padding: 25px;
-    background-color: rgb(8 58 109 / 70%);
-    border-radius: 10px;
-}
-
 /*---------------------- Hero End ----------------------*/
+
+/* style assist from youtube video - https://www.youtube.com/watch?v=FK5DEa1Hvco */
 
 #scroll-btn {
     display: none;
@@ -225,8 +215,10 @@ div #map {
 
 /*---------------------- Bottom Image ----------------------*/
 
+/* This image was taken from Pexels site, https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+
 .btm-img {
-    background-image: url("../images/breaks/docks-c.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/docks-c.jpg"); 
     background-position: center;
     background-size: cover;
     height: 50vh;
