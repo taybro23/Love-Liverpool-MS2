@@ -21,6 +21,10 @@ body {
     font-family: "Permanent Marker", sans-serif;
 }
 
+.pad-t {
+    padding-top: 60px;
+}
+
 hr {
     margin-left: auto;
     margin-right: auto;
@@ -125,6 +129,23 @@ dl, ol, ul {
 
 /*---------------------- Hero End ----------------------*/
 
+#scroll-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(80, 139, 199, 1);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
 /*---------------------- Places ----------------------*/
 
 /* code for image-overlay followed from youtube video - https://www.youtube.com/watch?v=exb2ab72Xhs */
@@ -153,12 +174,18 @@ dl, ol, ul {
     transition: opacity 0.30s;
 }
 
+.poi-link {
+    color: #fff;
+}
+
 /*---------------------- Places End ----------------------*/
 
 /*---------------------- Liverpool One Image ----------------------*/
 
+/* This image was taken from google images, img link - https://g9e6e8a4.stackpathcdn.com/wp-content/uploads/2019/10/The-Guide-Liverpool-ONE-1.jpg  */
+
 .mid1-img {
-    background-image: url("../images/breaks/l1-c.jpg"); /* This image was taken from Pexels site, https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+    background-image: url("../images/breaks/l1-c.jpg"); 
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -209,10 +236,6 @@ div #map {
 
 /*---------------------- Contact Form ----------------------*/
 
-.pad-t {
-    padding-top: 60px;
-}
-
 .hidden {
     display: none;
 }
@@ -243,16 +266,20 @@ div #map {
     color: rgba(104, 192, 255, 1);
 }
 
-#btnscroll:hover {
-    color: #fff;
+#scroll-btn:hover {
+    background-color: rgba(8, 58, 109, 1);
+}
+
+.poi-link:hover {
+    color: rgba(104, 192, 255, 1);
 }
 
 .image-overlay:hover {
     opacity: 1;
 }
 
-.fom-btn:hover {
-    background-color: rgba(8, 58, 109, 1);
+.lfc:hover {
+    color: #cd1a1a;
 }
 
 .btn-outline-primary:hover {
