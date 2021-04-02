@@ -111,7 +111,7 @@ dl, ol, ul {
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/hero/lp1-c.jpg");
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
     position: relative;
 }
 
