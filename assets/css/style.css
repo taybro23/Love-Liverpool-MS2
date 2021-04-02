@@ -107,12 +107,13 @@ dl, ol, ul {
 
 /*---------------------- Hero ----------------------*/
 
+/* Image found on google images - https://g9e6e8a4.stackpathcdn.com/wp-content/uploads/2019/10/The-Guide-Liverpool-ONE-1.jpg */
+
 .hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/hero/lp1-c.jpg");
+    background-image: url("../images/hero/lp1.jpg");
     background-position: center;
     background-size: cover;
     height: 80vh;
-    position: relative;
 }
 
 /*---------------------- Hero End ----------------------*/
@@ -198,10 +199,10 @@ div h3 a {
 
 /*---------------------- Liverpool One Image ----------------------*/
 
-/* This image was taken from google images, img link - https://g9e6e8a4.stackpathcdn.com/wp-content/uploads/2019/10/The-Guide-Liverpool-ONE-1.jpg  */
+/* This image was taken from google images, img link - https://www.boutiquehotelier.com/wp-content/uploads/2019/02/liverpool-one_001.jpg  */
 
 .mid1-img {
-    background-image: url("../images/breaks/l1-c.jpg"); 
+    background-image: url("../images/breaks/l1.jpg"); 
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -244,7 +245,7 @@ div #map {
 /* This image was taken from Pexels site, https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
 
 .btm-img {
-    background-image: url("../images/breaks/docks-c.jpg"); 
+    background-image: url("../images/breaks/lpd.jpeg"); 
     background-position: center;
     background-size: cover;
     height: 50vh;
