@@ -72,3 +72,22 @@ plan their trip in advance.
 -	Regular traffic to the site 
 -	Easily contactable for further information or feedback regarding the site
 -	Social media links to be provided so that users can chose the platform of their choice when returning for information
+
+### Wireframes
+
+Mobile Wireframes
+ - I designed my wireframes with mobile devices in mind, and created these first so I knew what elements I had to work 
+ with for larger screens. 
+
+Desktop/Laptop Wireframes
+ - The transition from mobile to desktop view was a simple transition. The layout for some of the elements have been 
+ changed to accommodate the larger screen sizes for example, the “Places Of Interest” will be side by side on large screens and 
+ single view on small screens. 
+
+Original Wireframes
+ - [Mobile](assets/wireframes/o-mobile.pdf)
+ - [Desktop/Laptop](assets/wireframes/o-desktop.pdf)
+
+Updated Wireframes
+ - Mobile
+ - Desktop/Laptop
