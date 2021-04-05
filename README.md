@@ -73,7 +73,7 @@ plan their trip in advance.
 -	Easily contactable for further information or feedback regarding the site
 -	Social media links to be provided so that users can chose the platform of their choice when returning for information
 
-### Wireframes
+## Wireframes
 
 Mobile Wireframes
  - I designed my wireframes with mobile devices in mind, and created these first so I knew what elements I had to work 
@@ -91,3 +91,31 @@ Original Wireframes
 Updated Wireframes
  - Mobile
  - Desktop/Laptop
+
+## Wireframe Changes
+
+### Mobile
+
+ - I originally planned for separate pages for each section (e.g. Restaurants, Shops), however I found a one page site 
+ worked really well for what I wanted. It looked a lot smoother and felt more intuitive. 
+ - At first, I wanted the hero image to cover the entire first screen, however this didn’t work on the deployed site due 
+ to the user having little to no instruction to scroll down to access the rest of the site. I changed this to include a 
+ small bar along the bottom that when clicked, took you to the next section of the site. 
+ - In the “Places Of Interest” section I initially had a “Find Out More” button that when clicked, would show information 
+ such as address and contact details. Although this worked well on the mobile side of things, it did not transition well to the 
+ desktop version, so was removed and replaced by a hover element. For a future update, I would like to re-implement this on 
+ mobile devices only. 
+ - I wanted to have two different pages, one for restaurants and one for shops, however as I had changed the layout to one 
+ continuous scrolling page I decided to merge these into one. There was no need to have two maps on my site, so combining them 
+ made sense. I also added a new section of “Places To Stay” as this fit well into the rest of my site, and added more value to the site. 
+ - I decided to remove the list of restaurants/shops as the map would highlight all of the ones that I wanted to and provide 
+ relevant information in each info window. For a future update, I would like to include a list or a “Top 3” section below the map 
+ which shows a bit more information, and maybe reviews of these places. 
+
+### Desktop/Laptop
+
+ - The first page was a landing page for the site. As I decided to change this, I amended the layout slightly and did the same on the large screen version as the mobile; including a small bar along the bottom that when clicked takes you to the next section of the site.
+ - In the “Places Of Interest” section, I did the same as the mobile site and removed the “Find Out More” buttons and replaced them with a hover function. This works much better on desktop/laptop view as when the buttons were clicked, there was a large white section that appeared below the other elements that hadn’t been selected that didn’t look right and really threw off the look of the site.
+ - On my original desktop wireframes I did not include the images for each section. This was because I planned on having separate pages for each part of the site, but at the start of production decided to make it a single webpage. I had already included images at the start of each page on my mobile wireframes so it also made sense to include them on the full site.
+ - As I had all the content centred for mobile view it was better to keep it uniform across all device sizes so I centred the content on all screen sizes. This did also look better on the desktop/laptop site as well. 
+ - I changed the Contact Us section because the form layout did not look right when actually implemented on a desktop site. I also moved the image that was below the contact section to above the contact section to match with the rest of the site.
