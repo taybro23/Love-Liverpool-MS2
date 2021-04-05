@@ -238,3 +238,129 @@ There are a number of future deployments I would like to make on the site, and t
 -	Find out more buttons to be put back into the POI section for mobile view only.
 -	In the “Liverpool One” section, I would like to have a top 3 below the map or a list of the places with information about each one.
 
+# Technologies Used
+
+## Languages
+
+-	HTML5
+-	CSS3
+-	JavaScript
+
+## Frameworks, Libraries and Programmes Used
+
+Adobe Photoshop - https://www.adobe.com/uk/  
+Adobe Photoshop was used to resize images and put both stadium pictures together for ‘Places Of Interest’ sections.
+
+Balsamiq – https://balsamiq.com/   
+This programme was used to create the wireframes for my project.
+
+Bootstrap – https://getbootstrap.com/  
+Bootstrap was used to help me with the basic structure and layout of my page by using premade classes for example, container-fluid, text-center and mt/mb. 
+ 
+Chrome Developer Tools – (Found on every site by right clicking and selecting ‘Inspect’.)  
+Chrome Developer Tools helped me to make amendments live to my site, and check that my media queries were working. I was also able to view the site on mobile devices that I did not have access to. 
+
+Font Awesome – https://fontawesome.com/  
+I used icons from Font Awesome for the ‘social links’ in the footer.  
+
+Github – https://github.com/  
+Github was used to store the code for the project.
+
+Gitpod – https://gitpod.io/workspaces/  
+I used Gitpod to write the code and push it to Github.
+
+Google Fonts – https://fonts.google.com/  
+I used Google Fonts to find the text designs that best suited my needs for this project.
+
+jQuery – https://jquery.com/  
+jQuery was used for certain functions to slim line the amount of code I needed to write. It was also a personal preference to use this due to ease. 
+
+# Testing
+
+## HTML, CSS and JS testing
+
+- [W3C HTML Validator](https://validator.w3.org/#validate_by_input) was used for HTML validation and came back free of errors.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used for CSS validation and no errors were found.
+- [JSLint](https://jslint.com/) was used for Javascript validation, no issues were found.
+
+## Features and functionality
+
+### Responsiveness
+-	The responsiveness of this site has been tested on Google Chrome using the developer tools, as well as an iPhone X and Samsung Galaxy S20. 
+
+### Navbar
+-	I tested the navbar for the responsiveness across different devices. I found that on certain smaller mobile devices, the logo of “Love Liverpool” was too big and was pushing the hamburger menu down to the next row which was making the navbar too tall on the screen. I made the logo size smaller on mobile devices and this fixed the issue. I tested the functionality of the opacity level on the navbar and this was also working as intended.
+
+### Scroll to top button
+-	The scroll to top button works as intended, however I had a couple of issues when I first put this onto my site which are highlighted in the Bugs and fixes section below.
+
+### Places Of Interest
+-	The hover aspect of this section works perfectly and was just what I was looking for. I followed code from a YouTube video (credited in the credit section) and it worked and looks really good on the site. 
+
+### Liverpool One 
+-	I had a few issues with coding the map, but after some assistance I managed to get it working well. I made sure the buttons worked on all devices, and were positioned well on each screen size. 
+
+### Contact Us
+-	I changed the size of the contact form between device sizes as there was too much space at either side on mobile devices, and the form was too small. I made the form wider on smaller devices to make sure the form was fully legible and there was enough space to enter information. 
+
+### Footer
+-	The footer was very simple to test as there were not any elements that could really be skewed. The text remained central which is what I wanted. 
+
+## User story testing
+
+### First time and returning users
+
+To understand what the site is and what it is to be used for
+-	*Upon entering the site you will be met with the landing page. This will show a navbar with the website name and logo “Love Liverpool”, 
+an image of Liverpool One and a bar at the bottom with “Explore Liverpool”.*
+
+Easy navigation of the entire site regardless of device used
+-	*The site is fully responsive on all devices, and can be easily navigated by using the navbar which is fixed to the top of the page.*
+
+The best places to visit during a trip to Liverpool
+-	*I have chosen six of the most popular attractions within Liverpool. There is a variety of places so that there will be something 
+for everyone.*
+
+All information to be provided clearly and concisely
+-	*I have used a very clean layout for the site, and all information is very clear for the users to see.*
+
+Relevant information to be provided for all places of interest, hotels, restaurants and shops showcased on the site
+-	*I have stuck to the necessary information only and have provided links to the official website, addresses so that the user knows where 
+abouts each place is located, and a contact number should they wish to call the venue for any reason.*
+
+Contact information and address details to be provided for all places of interest, hotels, restaurants and shops highlighted on site
+-	*These can be found by hovering over the images in the “Places Of Interest” section, and by clicking on the markers on the map in the 
+“Liverpool One” section.*
+
+Official website links to be provided so all places can be explored more and browsed at leisure
+-	*All official site links are provided in each section of the site. They can be found in the “Places Of Interest” section by hovering 
+over the images, and in the map section by clicking on the place name in the info window on the map.*
+
+To be able to contact the owner of the site for any questions or queries surrounding Liverpool or the places showcased 
+-	*The contact form of the bottom of the site allows the user to contact the site owner with any questions they have.*
+
+### Site owner
+
+The site owner would want an easy to navigate site that users can pick up and use without any issues on any device
+-	*I created the site with a clean design, a single scrolling page and sticky navbar so that different sections of the site can be reached 
+regardless of page position. I also implemented a scroll to top button so the user can be taken straight to the top of the page without 
+having to scroll all the way back up manually.*
+
+Provide a range of options for the user so they can chose the best places to visit for them during their trip to Liverpool
+-	 *I have included fifteen different places to stay, restaurants and shops so that there is variety for everyone.*
+
+Relevant information to be provided to users in a clear and concise way
+-	*There is a small description under each attraction in the “Places Of Interest” section, and only necessary information has been 
+provided to the user. The information is displayed clearly to the user due to the clean design of the site.*
+
+Regular traffic to the site 
+-	*If the site has relevant information and has a good design, people will continue using the site, and I believe I have achieved this.* 
+
+Easily contactable for further information or feedback regarding the site
+-	*A contact form has been added to the bottom of the site whereby the user can ask a question or submit feedback.* 
+
+Social media links to be provided so that users can chose the platform of their choice when returning for information
+-	*It’s very important to have social media links on a site for versatility. If a user has a preference on how they like to search for 
+information it’s important to make sure this need is met. It’s also important to make sure those links are relevant to the user, which is 
+why I provided the links to Facebook, Instagram and Tripadvisor.*
+
