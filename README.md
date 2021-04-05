@@ -364,3 +364,33 @@ Social media links to be provided so that users can chose the platform of their 
 information it’s important to make sure this need is met. It’s also important to make sure those links are relevant to the user, which is 
 why I provided the links to Facebook, Instagram and Tripadvisor.*
 
+## Bugs and fixes
+
+### EmailJS
+
+I had a number of issues with implementing EmailJS onto my site. I followed the course code which did not seem to work for me and 
+brought up multiple errors so instead I used the code provided directly by EmailJS. I still had issues with this and consulted Online Tutor 
+Support to help me with my query. Eventually a fix was put in place. Here are the steps we went through to put a fix in place;
+
+The first error I had with this was that I had not linked up my code correctly with the template. On my template I had specified 
+“from-name” and “from-email” but my code was showing “name” and “email”. This was causing the email to come through with “[No sender]” on 
+the email I received as well as the name section being blank within the email. The name section was fixed first, but the “[No sender]” issue 
+was still there, and where the senders email should be on the email itself, there was just a blank space when accessing the email. 
+Screenshots of this issue below;
+
+![screenshot 1](assets/screenshots/ss1.jpg)
+![screenshot 2](assets/screenshots/ss2.jpg)
+
+From here I had to figure out how to get the email address showing. With plenty of testing and playing around with the code, it seemed 
+that the email address would not show from anything other than a Hotmail email address which is the email provider that I used to set up my 
+EmailJS profile with. As these issues do not directly affect the consumer, there was no immediate threat to the grading of my project, 
+however I wanted to make sure it worked as it should for a fully deployed site. To fix this issue, I had to include the email address in the 
+body of the email itself. See screenshots below for the before and after template;
+
+![screenshot 3](assets/screenshots/ss3.jpg)
+![screenshot 4](assets/screenshots/ss4.jpg)
+
+Once this was put in place I could now receive the email address within the body of the email as below;
+
+![screenshot 5](assets/screenshots/ss5.jpg)
+![screenshot 6](assets/screenshots/ss6.jpg)
