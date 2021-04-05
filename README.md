@@ -114,8 +114,64 @@ Updated Wireframes
 
 ### Desktop/Laptop
 
- - The first page was a landing page for the site. As I decided to change this, I amended the layout slightly and did the same on the large screen version as the mobile; including a small bar along the bottom that when clicked takes you to the next section of the site.
- - In the “Places Of Interest” section, I did the same as the mobile site and removed the “Find Out More” buttons and replaced them with a hover function. This works much better on desktop/laptop view as when the buttons were clicked, there was a large white section that appeared below the other elements that hadn’t been selected that didn’t look right and really threw off the look of the site.
- - On my original desktop wireframes I did not include the images for each section. This was because I planned on having separate pages for each part of the site, but at the start of production decided to make it a single webpage. I had already included images at the start of each page on my mobile wireframes so it also made sense to include them on the full site.
- - As I had all the content centred for mobile view it was better to keep it uniform across all device sizes so I centred the content on all screen sizes. This did also look better on the desktop/laptop site as well. 
- - I changed the Contact Us section because the form layout did not look right when actually implemented on a desktop site. I also moved the image that was below the contact section to above the contact section to match with the rest of the site.
+ - The first page was a landing page for the site. As I decided to change this, I amended the layout slightly and did the same on the 
+ large screen version as the mobile; including a small bar along the bottom that when clicked takes you to the next section of the site.
+ - In the “Places Of Interest” section, I did the same as the mobile site and removed the “Find Out More” buttons and replaced them 
+ with a hover function. This works much better on desktop/laptop view as when the buttons were clicked, there was a large white section 
+ that appeared below the other elements that hadn’t been selected that didn’t look right and really threw off the look of the site.
+ - On my original desktop wireframes I did not include the images for each section. This was because I planned on having separate 
+ pages for each part of the site, but at the start of production decided to make it a single webpage. I had already included images 
+ at the start of each page on my mobile wireframes so it also made sense to include them on the full site.
+ - As I had all the content centred for mobile view it was better to keep it uniform across all device sizes so I centred the 
+ content on all screen sizes. This did also look better on the desktop/laptop site as well. 
+ - I changed the Contact Us section because the form layout did not look right when actually implemented on a desktop site. I also 
+ moved the image that was below the contact section to above the contact section to match with the rest of the site.
+
+# Design
+
+## Structure
+
+The site will only be made up of one page, and will have a fixed-top navbar so that the sections of the site can be easily navigated between. 
+
+When loaded, the hero image will be displayed to the user, along with the fixed-top navbar at the top and “Explore Liverpool” bar at the bottom. 
+Below that is the first section of the site which is “Places Of Interest”. This section has six top attractions to visit in Liverpool, 
+along with a small amount of information about each place and the address/contact details that appear when the image is hovered over. 
+The next section is “Liverpool One” where there are three buttons, “Places To Stay”, “Restaurants” and “Shops”, above a map of Liverpool 
+which has been added to the site using Google Maps API. 
+The final section of the site is a contact form where people can enter their contact information and ask a question that will be sent to 
+the site owner. 
+
+## Typography
+
+There are two main fonts that I have chosen for my site, and they were both taken from Google Fonts;
+
+ - Kanit – I used this as the main font for the site due to it being easily legible and simple, but with a slight flare to make it 
+ more interesting as I didn’t want a font that felt too “corporate”.
+ - Permanent Marker – I felt that this font was fun and laid back, and that was what I wanted for the headings on my website. It also 
+ works well with the other font I have chosen for my site.
+ - Sans-Serif – This is the reserve font should anything go wrong with Google Fonts.
+
+## Colours
+
+The main colours I used for my site were black, white and different shades of blue. Listed below are the exact colours I used and why; 
+
+-	rgba(8, 58, 109, 1) – I chose this dark shade of blue for the navbar as it is very strong colour and immediately draws your attention. 
+I have also used this colour for the background colour of the “Explore Liverpool” bar and the footer, as well as the hover colour for the 
+map buttons and the scroll to top button. 
+-	#fff – I chose white for the navbar logo and text colour due to it standing out from the dark background colour. It is also the main 
+colour for the text in the “Explore Liverpool” bar, the hover text in “Places Of Interest” section, the icon for the scroll to top button 
+and the text and icons in the footer. 
+-	rgba(104, 192, 255, 1) – I chose a lighter blue for the hover colour on the navbar, the “Explore Liverpool” bar, and the “View Site” 
+links in the “Places Of Interest” section. It still stands out well from the background colour and compliments it well. 
+-	#bccedd21 – This is a very pale shade of blue with the opacity turned down low. This was used for the background so that it wasn’t bright 
+white, and had a blue tinge to match the rest of the site.
+-	#000 – I used black as the main text colour for the site due to it standing out from the pale background.
+-	#cd1a1a – I chose a deep red for the “Official LFC Website” to match the colour of the football club.
+-	rgba(80, 139, 199, 1) – This is another light shade of blue that I used for the map buttons and scroll to top background. I changed the 
+colour slightly from the other shade of light blue as it didn’t stand out well from the pale background.
+
+## Imagery
+
+The majority of the images for my site were found on google images, and credits have been provided in the credits section. 
+All images are of Liverpool One and the places highlighted. 
+
