@@ -394,3 +394,149 @@ Once this was put in place I could now receive the email address within the body
 
 ![screenshot 5](assets/screenshots/ss5.jpg)
 ![screenshot 6](assets/screenshots/ss6.jpg)
+
+### Clearing the form after submit 
+
+I initially had issues with clearing the form after it had been submitted. I was using the following function;
+
+`function submitForm() {
+    document.getElementById("contact-form").reset(); 
+};`
+
+I had also added an “onclick” function to the submit button within my HTML. This was not working as I had planned however and was 
+clearing the form upon clicking the submit button (which is essentially what I had coded it to do, however I wanted this to happen AFTER 
+submission). I played around with the code a little bit and got some advice from a mentor on Slack who advised I should try it within my 
+already existing function that submitted the form. This fixed the issue I was having. 
+
+### Logo size on navbar
+
+When the site was loaded on mobile devices the logo was too big and it was pushing the hamburger menu down onto the next line, making the 
+navbar twice as thick as it should have been. I reduced the size of the logo for mobile devices and this fixed the issue.
+
+### Scroll to top button
+
+When I first implemented the scroll to top button I had a couple of issues with it. The first issue I had was that on a page refresh, it 
+was showing regardless of positioning of the site, therefore was showing where it should not be shown. This was fixed by applying 
+“display:none;” to CSS and this fixed the issue. 
+The second issue I had was that upon scrolling the site, the button was disappearing behind the “Places Of Interest” images and the map. 
+This was fixed by setting the Z index in CSS to make sure it appeared above those elements. 
+
+### Form submit time
+
+When the form is submitted, it takes a few moments to actually submit and load on the site. This is something that has not yet been fixed. 
+
+# Deployment
+
+## GitHub Pages
+
+This site was created and managed using GitHub and GitPod. Outlined below is how this site was deployed.
+
+-	Log into GitHub.
+-	Go to the repository list and select the project you are looking to deploy.
+-	Below the repository name is a menu. Select settings.
+-	Scroll down to the “GitHub Pages” section of the page.
+-	Under the subheading “Source”, select the branch you wish to deploy.
+-	The page will refresh. Scroll down to the “GitHub Pages” section again and just below the heading, there will be a tick, with the line “Your site is published at…” and the URL.
+-	Copy the URL and paste it into a new tab/window to view the live site.
+
+## Forking the repository
+
+Forking the repository allows you to make a copy of the original, and make changes without amending the original. 
+
+-	Log into GitHub.
+-	Select the repository you are looking for.
+-	At the top of the repository, in line with the repository name and on the right hand side, will be a “Fork” button. Select this and it will fork the repository for you.
+-	You will then have a copy of the original repository in your GitHub account repository list.
+
+## Cloning the repository
+
+You can run your own version by cloning the repository. To make a local clone, follow the steps below.
+
+-	Log into GitHub.
+-	Locate the repository for the site you are wishing to clone.
+-	On the left of the green “GitPod” button will be a dropdown menu that says “Code”.
+-	Select it and copy the URL under the “HTTPS” tab.
+-	Open your preferred terminal. 
+-	Type “git clone” and paste the copied URL.
+-	Press Enter, and the code will be cloned. 
+
+# Credits
+
+## Images
+
+Website Icon –  
+http://liverpool.gov.uk/favicon.ico 
+
+Main Hero Image –  
+https://g9e6e8a4.stackpathcdn.com/wp-content/uploads/2019/10/The-Guide-Liverpool-ONE-1.jpg  
+
+World History Museum –    
+https://theguideliverpool.com/wp-content/uploads/2020/05/shutterstock_1397860289.jpg 
+
+Walker Art Gallery –  
+https://www.liverpoolmuseums.org.uk/sites/default/files/2020-05/walker-zoom.png 
+
+Liverpool Anfield Stadium –  
+https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/81/thumb_80700_default_news_size_5.jpeg 
+
+Everton Goodison Park Stadium –  
+https://i2-prod.liverpoolecho.co.uk/incoming/article14473773.ece/ALTERNATES/s615/JS115156827.jpg 
+
+The Beatles Story –  
+https://i2-prod.liverpoolecho.co.uk/incoming/article9120951.ece/ALTERNATES/s1200b/JS56042582-1.jpg
+
+Albert Docks –  
+https://www.theguideliverpool.com/wp-content/uploads/2019/01/albert-dock-night-time-.jpg 
+
+Liverpool Cathedral –  
+https://files.structurae.net/files/photos/1/liverpool_anglican_cathedral_from_st_johns_beacon_2.jpg 
+
+Liverpool One Image –  
+https://www.boutiquehotelier.com/wp-content/uploads/2019/02/liverpool-one_001.jpg
+
+Bottom Image of Liverpool Docks –   
+https://images.pexels.com/photos/2536478/pexels-photo-2536478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 
+
+Images were edited and resized using Adobe Photoshop –
+https://www.adobe.com/uk/products/photoshop.html
+
+## Code
+
+### General code and layout
+
+For the general layout and classes for my website I used Bootstrap. This allowed me to use their grid system, and set classes such as 
+columns and margins for my content. 
+
+### EmailJS
+
+-	https://www.emailjs.com/
+
+For the code for EmailJS I mainly followed the information provided on the site, as well as using the walkthrough from Code Institute and 
+consulting with Tutor Support. 
+
+### Scroll to top button 
+
+-	https://www.youtube.com/watch?v=FK5DEa1Hvco 
+-	https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
+
+I created the “Scroll to top” button by following the code above and tweaking it to my needs. 
+
+### Hover overlay in Places Of Interest section
+
+-	https://www.youtube.com/watch?v=exb2ab72Xhs 
+
+I used this code as a baseline for my overlay. It worked as I needed so I amended it slightly to flow with my site.
+
+### Google maps API 
+
+-	https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB 
+-	https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example 
+
+I mainly used the documents provided by google for help with setting up google maps, but I did also use stackoverflow, and had help from 
+a fellow student, S Vickers. 
+
+
+## Acknowledgements 
+
+I want to thank my mentor Maranatha for giving me excellent advice and helping me to improve my site, my fellow Code Institute students for 
+their assistance in code queries and improvements, and the course tutors for assisting me throughout this section of the course!
