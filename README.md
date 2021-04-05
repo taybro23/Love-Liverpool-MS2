@@ -89,8 +89,8 @@ Original Wireframes
  - [Desktop/Laptop](assets/wireframes/o-desktop.pdf)
 
 Updated Wireframes
- - Mobile
- - Desktop/Laptop
+ - [Mobile](assets/wireframes/n-mobile.pdf)
+ - [Desktop/Laptop](assets/wireframes/n-desktop.pdf)
 
 ## Wireframe Changes
 
