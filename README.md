@@ -175,3 +175,66 @@ colour slightly from the other shade of light blue as it didn’t stand out well
 The majority of the images for my site were found on google images, and credits have been provided in the credits section. 
 All images are of Liverpool One and the places highlighted. 
 
+# Features
+
+## Responsiveness
+
+The entire site is fully responsive and reacts to screen size well. I have tested the responsiveness on Google Chrome using the developer 
+tools, as well as an iPhone X and Samsung Galaxy S20. 
+
+## Navbar
+
+The navbar is at the very top of the page, and has been given the Bootstrap class of “fixed-top” so that the navbar is displayed at the top 
+throughout the entire site. The logo is displayed at the very left hand side, followed horizontally by the three sections of the site, 
+“Places Of Interest”, “Liverpool One” and “Contact Us”. This allows users to navigate between the different sections of the site with ease. 
+When the site is loaded on a tablet or mobile device, rather than having the three sections taking up unnecessary space there will be a 
+hamburger menu icon on the right hand side. When selected, this will drop the navbar down with the three sections listed. When one is 
+selected, you will be taken to that part of the site, and the navbar will collapse again. What I also implemented was similarly to the 
+scroll to top button, when the user scrolls down to a certain pixel, the navbar opacity is turned down. This is to allow the user the 
+ability to see behind the navbar and also gives the impression of a larger view.
+
+## Scroll To Top Button
+
+Even though the navbar is shown throughout the site, I wanted users to have an easy way back to the top of the page. The scroll to top button 
+is hidden until the user scrolls down to a set pixel whereby the scroll to top button is triggered and will be displayed on the site. 
+
+## Places Of Interest
+
+For the places of interest section I wanted six places that are must-see destinations when visiting Liverpool. I initially had buttons 
+that when clicked brought up address details and contact information for each place. This didn’t work when implemented on the site due to a 
+lot of white space being left where the other buttons hadn’t been selected. I changed this by removing the buttons and adding an overlay so 
+that when the images are hovered over, the text appears over the image. I set the background colour to an opaque black so that the image is 
+still visible, but the text stands out. I chose white as the text colour to make the wording pop. The hover colour is the same light blue as 
+is used on the navbar hover, however, for Liverpool Football Club I used a deep red to reflect the colour of the football team. As Everton 
+Football Club are already a shade of blue, there was no need to edit the colour for their link.
+
+## Liverpool One
+
+Liverpool One is the main shopping area of Liverpool. It’s where the vast majority of the shops, restaurants and hotels are located and it’s 
+where I wanted to focus a part of the site on. I implemented Google Maps on my site for this section, and chose the locations I wanted to 
+showcase. Above the map, I put three buttons that when clicked, will bring up markers on the map in relation to the button clicked. The 
+markers have a drop effect to make it more animated and interesting to look at. If a marker is clicked on the map, there will be an info 
+window that will have the name of the place, the address and contact number. The name is also a link to the official site of said place.
+
+## Contact Us 
+
+The last section of the site is the “Contact Us” form. This is so that if users have any questions or feedback they can contact the site 
+owner directly and will receive a response. They will be asked to provide their name and email address so they can be responded to. The form 
+itself is set up so that a valid email address has to be entered and all fields have to be completed before the form can be submitted. I 
+have created a hover effect over the input fields so that the user knows which field they are hovering over, and the border will also be 
+highlighted with the field they are inputting information into. Upon submitting the form, the user will receive a message above the form, 
+confirmed whether the submission has been successful or not. 
+
+## Footer
+
+I created the footer very similarly to the navbar. I used the same colour scheme as the navbar and centred the text to match the 
+rest of the site. I put the site logo and social links in the footer as it is the appropriate place to put them.
+
+## Future Deployments
+
+There are a number of future deployments I would like to make on the site, and they are detailed below;
+
+-	Directions to be provided for each place of interest.
+-	Find out more buttons to be put back into the POI section for mobile view only.
+-	In the “Liverpool One” section, I would like to have a top 3 below the map or a list of the places with information about each one.
+
