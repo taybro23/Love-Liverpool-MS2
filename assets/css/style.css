@@ -259,6 +259,12 @@ div #map {
     display: none;
 }
 
+.alert-primary {
+    color: rgba(8, 58, 109, 1);
+    background-color: rgba(104, 192, 255, 1);
+    border-color: rgba(8, 58, 109, 1);
+}
+
 .contact-form {
     margin: 0 auto;
     max-width: 80%;
