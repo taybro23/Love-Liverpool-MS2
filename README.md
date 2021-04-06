@@ -378,8 +378,8 @@ the email I received as well as the name section being blank within the email. T
 was still there, and where the senders email should be on the email itself, there was just a blank space when accessing the email. 
 Screenshots of this issue below;
 
-![screenshot 1](assets/screenshots/ss1.jpg)
-![screenshot 2](assets/screenshots/ss2.jpg)
+![screenshot 1](assets/screenshots/s1.jpg)
+![screenshot 2](assets/screenshots/s2.jpg)
 
 From here I had to figure out how to get the email address showing. With plenty of testing and playing around with the code, it seemed 
 that the email address would not show from anything other than a Hotmail email address which is the email provider that I used to set up my 
@@ -387,13 +387,13 @@ EmailJS profile with. As these issues do not directly affect the consumer, there
 however I wanted to make sure it worked as it should for a fully deployed site. To fix this issue, I had to include the email address in the 
 body of the email itself. See screenshots below for the before and after template;
 
-![screenshot 3](assets/screenshots/ss3.jpg)
-![screenshot 4](assets/screenshots/ss4.jpg)
+![screenshot 3](assets/screenshots/s3.jpg)
+![screenshot 4](assets/screenshots/s4.jpg)
 
 Once this was put in place I could now receive the email address within the body of the email as below;
 
-![screenshot 5](assets/screenshots/ss5.jpg)
-![screenshot 6](assets/screenshots/ss6.jpg)
+![screenshot 5](assets/screenshots/s5.jpg)
+![screenshot 6](assets/screenshots/s6.jpg)
 
 ### Clearing The Form After Submit 
 
