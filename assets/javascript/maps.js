@@ -3,11 +3,11 @@
 
 // placesmarkers arrays and infoWindows content //
 
-var map;
+const map;
 
-var placesMarkers = [];
+const placesMarkers = [];
 
-var stayMarkers = [
+const stayMarkers = [
     {
         location: {
             lat: 53.400376992378675, 
@@ -116,7 +116,7 @@ var stayMarkers = [
         content: '<a href="https://richmondliverpool.com/" target="_blank"><h5>The Richmond Apart-Hotel</h5></a> <h6>24 Hatton Garden, Liverpool, L3 2AA</h6> <p>Tel: 0151 236 1220</p>'
     },
 ];
-var restMarkers = [
+const restMarkers = [
     {
         location: {
             lat: 53.40616780118653, 
@@ -223,7 +223,7 @@ var restMarkers = [
         content: '<a href="https://wildwoodrestaurants.co.uk/restaurant/liverpool/" target="_blank"><h5>Wildwood</h5></a> <h6>Unit 2a Clayton Square Shopping Centre, 2 Church St, Liverpool, L1 1QR</h6> <p>Tel: 0151 541 2900</p>'
     },
 ];
-var shopMarkers = [
+const shopMarkers = [
     {
         location: {
             lat: 53.40358328192974, 
@@ -356,12 +356,12 @@ if (window.screen.width < 768) {
     
 // variable for infoWindows //
 
-var infoWindow = new google.maps.InfoWindow();
+const infoWindow = new google.maps.InfoWindow();
 
 // function for the markers to appear when a button is clicked // 
 
 function addMarker(places) {
-    var marker = new google.maps.Marker({
+    let marker = new google.maps.Marker({
         position: places.location,
         map: map,
         animation: google.maps.Animation.DROP,
