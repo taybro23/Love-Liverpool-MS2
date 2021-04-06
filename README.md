@@ -283,7 +283,7 @@ jQuery was used for certain functions to slim line the amount of code I needed t
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used for CSS validation and no errors were found.
 - [JSLint](https://jslint.com/) was used for Javascript validation, no issues were found.
 
-## Features and functionality
+## Features and Functionality
 
 ### Responsiveness
 -	The responsiveness of this site has been tested on Google Chrome using the developer tools, as well as an iPhone X and Samsung Galaxy S20. 
