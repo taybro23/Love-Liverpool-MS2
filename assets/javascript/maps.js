@@ -3,7 +3,7 @@
 
 // placesmarkers arrays and infoWindows content //
 
-const map;
+let map;
 
 const placesMarkers = [];
 
