@@ -5,7 +5,7 @@
 
 ## Table Of Contents
 1. [Overview](#overview)
-2. [UX](#ux-(user-experience))
+2. [UX](#ux-user-experience)
     - [Target Audience](#target-audience)
     - [User Stories](#user-stories)
     - [Wireframes](#wireframes)
