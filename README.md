@@ -1,41 +1,41 @@
 # Taylor Brookes - Milestone Project 2
 ## Love Liverpool!
 
-[Visit my live website here!](https://taybro23.github.io/liverpool/)
+[Visit my live website here!](https://taybro23.github.io/Love-Liverpool-MS2/)
 
 ## Table Of Contents
-1. Overview
-2. UX
-    - Target Audience
-    - User Stories
-    - Wireframes
-3. Design
-    - Structure
-    - Typography
-    - Colours
-    - Imagery
-4. Features
-    - Responsiveness
-    - Navbar
-    - Scroll To Top Button
-    - Places Of Interest
-    - Liverpool One
-    - Contact Us
-    - Footer
-    - Future Deployments
-5. Technologies Used
-    - Languages
-    - Frameworks, Libraries and Frameworks
-6. Testing
-    - HTML, CSS and JS
-    - Features and Functionality
-    - User Story Testing
-    - Bugs and Fixes
-7. Deployment
-8. Credits
-    - Images
-    - Code
-    - Acknowledgements  
+1. [Overview](#overview)
+2. [UX](#ux-(user-experience))
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+3. [Design](#design)
+    - [Structure](#structure)
+    - [Typography](#typography)
+    - [Colours](#colours)
+    - [Imagery](#imagery)
+4. [Features](#features)
+    - [Responsiveness](#responsiveness)
+    - [Navbar](#navbar)
+    - [Scroll To Top Button](#scroll-to-top-button)
+    - [Places Of Interest](#places-of-interest)
+    - [Liverpool One](#liverpool-one)
+    - [Contact Us](#contact-us)
+    - [Footer](#footer)
+    - [Future Deployments](#future-deployments)
+5. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks Libraries and Programmes Used](#frameworks-libraries-and-programmes-used)
+6. [Testing](#testing)
+    - [HTML CSS and JS Testing](#html-css-and-js-testing)
+    - [Features and Functionality](#features-and-functionality)
+    - [User Story Testing](#user-story-testing)
+    - [Bugs and Fixes](#bugs-and-fixes)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+    - [Site Images](#site-images)
+    - [Code](#code)
+    - [Acknowledgements](#acknowledgements)  
 
 # Overview
 
@@ -246,7 +246,7 @@ There are a number of future deployments I would like to make on the site, and t
 -	CSS3
 -	JavaScript
 
-## Frameworks, Libraries and Programmes Used
+## Frameworks Libraries and Programmes Used
 
 Adobe Photoshop - https://www.adobe.com/uk/  
 Adobe Photoshop was used to resize images and put both stadium pictures together for ‘Places Of Interest’ sections.
@@ -277,7 +277,7 @@ jQuery was used for certain functions to slim line the amount of code I needed t
 
 # Testing
 
-## HTML, CSS and JS testing
+## HTML CSS and JS Testing
 
 - [W3C HTML Validator](https://validator.w3.org/#validate_by_input) was used for HTML validation and came back free of errors.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used for CSS validation and no errors were found.
@@ -462,7 +462,7 @@ You can run your own version by cloning the repository. To make a local clone, f
 
 # Credits
 
-## Images
+## Site Images
 
 Website Icon –  
 http://liverpool.gov.uk/favicon.ico 
