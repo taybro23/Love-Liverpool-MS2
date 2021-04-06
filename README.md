@@ -53,7 +53,7 @@ must-see places, as well as included a range of hotels, restaurants and shops so
 plan their trip in advance.  
 
 ## User Stories
-### First time and returning users
+### First Time and Returning Users
 
 -	To understand what the site is and what it is to be used for
 -	Easy navigation of the entire site regardless of device used 
@@ -64,7 +64,7 @@ plan their trip in advance.
 -	Official website links to be provided so all places can be explored more and browsed at leisure
 -	To be able to contact the owner of the site for any questions or queries surrounding Liverpool or the places showcased 
 
-### Site owner
+### Site Owner
 
 -	The site owner would want an easy to navigate site that users can pick up and use without any issues on any device
 -	Provide a range of options for the user so they can chose the best places to visit for them during their trip to Liverpool 
@@ -291,7 +291,7 @@ jQuery was used for certain functions to slim line the amount of code I needed t
 ### Navbar
 -	I tested the navbar for the responsiveness across different devices. I found that on certain smaller mobile devices, the logo of “Love Liverpool” was too big and was pushing the hamburger menu down to the next row which was making the navbar too tall on the screen. I made the logo size smaller on mobile devices and this fixed the issue. I tested the functionality of the opacity level on the navbar and this was also working as intended.
 
-### Scroll to top button
+### Scroll To Top Button
 -	The scroll to top button works as intended, however I had a couple of issues when I first put this onto my site which are highlighted in the Bugs and fixes section below.
 
 ### Places Of Interest
@@ -306,9 +306,9 @@ jQuery was used for certain functions to slim line the amount of code I needed t
 ### Footer
 -	The footer was very simple to test as there were not any elements that could really be skewed. The text remained central which is what I wanted. 
 
-## User story testing
+## User Story Testing
 
-### First time and returning users
+### First Time and Returning Users
 
 To understand what the site is and what it is to be used for
 -	*Upon entering the site you will be met with the landing page. This will show a navbar with the website name and logo “Love Liverpool”, 
@@ -339,7 +339,7 @@ over the images, and in the map section by clicking on the place name in the inf
 To be able to contact the owner of the site for any questions or queries surrounding Liverpool or the places showcased 
 -	*The contact form of the bottom of the site allows the user to contact the site owner with any questions they have.*
 
-### Site owner
+### Site Owner
 
 The site owner would want an easy to navigate site that users can pick up and use without any issues on any device
 -	*I created the site with a clean design, a single scrolling page and sticky navbar so that different sections of the site can be reached 
@@ -364,7 +364,7 @@ Social media links to be provided so that users can chose the platform of their 
 information it’s important to make sure this need is met. It’s also important to make sure those links are relevant to the user, which is 
 why I provided the links to Facebook, Instagram and Tripadvisor.*
 
-## Bugs and fixes
+## Bugs and Fixes
 
 ### EmailJS
 
@@ -395,7 +395,7 @@ Once this was put in place I could now receive the email address within the body
 ![screenshot 5](assets/screenshots/ss5.jpg)
 ![screenshot 6](assets/screenshots/ss6.jpg)
 
-### Clearing the form after submit 
+### Clearing The Form After Submit 
 
 I initially had issues with clearing the form after it had been submitted. I was using the following function;
 
@@ -408,12 +408,12 @@ clearing the form upon clicking the submit button (which is essentially what I h
 submission). I played around with the code a little bit and got some advice from a mentor on Slack who advised I should try it within my 
 already existing function that submitted the form. This fixed the issue I was having. 
 
-### Logo size on navbar
+### Logo Size On Navbar
 
 When the site was loaded on mobile devices the logo was too big and it was pushing the hamburger menu down onto the next line, making the 
 navbar twice as thick as it should have been. I reduced the size of the logo for mobile devices and this fixed the issue.
 
-### Scroll to top button
+### Scroll To Top Button
 
 When I first implemented the scroll to top button I had a couple of issues with it. The first issue I had was that on a page refresh, it 
 was showing regardless of positioning of the site, therefore was showing where it should not be shown. This was fixed by applying 
@@ -421,7 +421,7 @@ was showing regardless of positioning of the site, therefore was showing where i
 The second issue I had was that upon scrolling the site, the button was disappearing behind the “Places Of Interest” images and the map. 
 This was fixed by setting the Z index in CSS to make sure it appeared above those elements. 
 
-### Form submit time
+### Form Submit Time
 
 When the form is submitted, it takes a few moments to actually submit and load on the site. This is something that has not yet been fixed. 
 
@@ -439,7 +439,7 @@ This site was created and managed using GitHub and GitPod. Outlined below is how
 -	The page will refresh. Scroll down to the “GitHub Pages” section again and just below the heading, there will be a tick, with the line “Your site is published at…” and the URL.
 -	Copy the URL and paste it into a new tab/window to view the live site.
 
-## Forking the repository
+## Forking The Repository
 
 Forking the repository allows you to make a copy of the original, and make changes without amending the original. 
 
@@ -448,7 +448,7 @@ Forking the repository allows you to make a copy of the original, and make chang
 -	At the top of the repository, in line with the repository name and on the right hand side, will be a “Fork” button. Select this and it will fork the repository for you.
 -	You will then have a copy of the original repository in your GitHub account repository list.
 
-## Cloning the repository
+## Cloning The Repository
 
 You can run your own version by cloning the repository. To make a local clone, follow the steps below.
 
@@ -502,7 +502,7 @@ https://www.adobe.com/uk/products/photoshop.html
 
 ## Code
 
-### General code and layout
+### General Code and Layout
 
 For the general layout and classes for my website I used Bootstrap. This allowed me to use their grid system, and set classes such as 
 columns and margins for my content. 
@@ -514,20 +514,20 @@ columns and margins for my content.
 For the code for EmailJS I mainly followed the information provided on the site, as well as using the walkthrough from Code Institute and 
 consulting with Tutor Support. 
 
-### Scroll to top button 
+### Scroll To Top Button 
 
 -	https://www.youtube.com/watch?v=FK5DEa1Hvco 
 -	https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
 
 I created the “Scroll to top” button by following the code above and tweaking it to my needs. 
 
-### Hover overlay in Places Of Interest section
+### Hover Overlay In Places Of Interest Section
 
 -	https://www.youtube.com/watch?v=exb2ab72Xhs 
 
 I used this code as a baseline for my overlay. It worked as I needed so I amended it slightly to flow with my site.
 
-### Google maps API 
+### Google Maps API 
 
 -	https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB 
 -	https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example 
