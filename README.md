@@ -1,7 +1,7 @@
 # Taylor Brookes - Milestone Project 2
 ## Love Liverpool!
 
-![screenshot 3](assets/screenshots/view.png)
+![Screen View](assets/screenshots/view.png)
 
 [Visit my live website here!](https://taybro23.github.io/Love-Liverpool-MS2/)
 
